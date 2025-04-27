@@ -8,6 +8,6 @@ def uppercase(str):
             new_str = chr(ord(str[i]) - (ord("a") - ord("A")))
         else:
             new_str = str[i]
-        print("{}". format(new_str), end="")
+        print("{}".format(new_str), end="")
         i += 1
     print()
