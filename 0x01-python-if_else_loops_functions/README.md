@@ -23,3 +23,10 @@ Just like in C programming Python also has ways of making decisions in the progr
 		- if the last digit is 0: the string `and is 0`
 		- if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
 - Followed by a new line
+
+## 02 - This  program prints the ASCII alphabet, in lowercase, not followed by a new line.
+- Used the tring format for formatting
+- Only one loop used
+- Characters are not stored in any variable
+- No modules have been imported
+
