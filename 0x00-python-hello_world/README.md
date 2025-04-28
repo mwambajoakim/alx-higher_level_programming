@@ -53,3 +53,5 @@ Here in this project I go through the basics of Python. I also remind myself how
 - No new variables were created
 - No string literals were used
 
+## 09 - This Python script prints “The Zen of Python”, by TimPeters, followed by a new line.
+- The script has a maximum 98 characters long (checked with `wc -m 9-easter_egg.py`)
