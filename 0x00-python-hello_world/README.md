@@ -18,3 +18,10 @@ Here in this project I go through the basics of Python. I also remind myself how
 - The variable numberis not cast into a string
 - Code is only 3 lines long
 - Used f-strings for formatting
+
+## 04 - This program prints the float stored in the variable number with a precision of 2 digits.
+- The output of the program should be:
+	- `Float:`, followed by the float with only 2 digits
+	- followed by a new line
+- `number` is not cast to a string
+- Used f-strings for formatting
