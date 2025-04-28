@@ -17,3 +17,16 @@ c = math.pow(a, b)
 print("{}".format(c))
 
 ```
+
+## 00 - This program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
+
+- Used print function with string format to display integers
+- Assigned the value:
+	- `1` to a variable called `a`
+	- `2` to a variable called `b`
+- and used those two variables as arguments when calling the functions `add` and `print`
+- `a` and `b` are defined in 2 different lines: `a = 1` and another `b = 2`
+- Program  prints: `<a value> + <b value> = <add(a, b) value> `followed with a new line
+- Used the word` add_0` once in the code
+- Neither used `*` or `*__import__` for importing 
+- The code is not executed when imported - by using `__import__`
