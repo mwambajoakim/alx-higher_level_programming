@@ -34,3 +34,8 @@ Here in this project I go through the basics of Python. I also remind myself how
 	- followed by a new line
 - No loops or conditional statements
 - Program has a maximum of 5 lines
+
+## 06 - This program prints `Welcome to ALX`
+- No loops or conditional statements used
+- The variables `str1` and `str2` were used
+- Program has exactly 5 lines 
