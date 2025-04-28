@@ -10,3 +10,11 @@ Here in this project I go through the basics of Python. I also remind myself how
 
 ## 02 - This Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
 - Uses the function `print`
+
+## 03 - This program prints the integer stored in the variable number, followed by Battery street, followed by a new line.
+- The output of the script is:
+	- the number, followed by Battery street,
+	- followed by a new line
+- The variable numberis not cast into a string
+- Code is only 3 lines long
+- Used f-strings for formatting
