@@ -25,7 +25,14 @@ Just like in C programming Python also has ways of making decisions in the progr
 - Followed by a new line
 
 ## 02 - This  program prints the ASCII alphabet, in lowercase, not followed by a new line.
-- Used the tring format for formatting
+- Used the string format for formatting
+- Only one loop used
+- Characters are not stored in any variable
+- No modules have been imported
+
+# 03 - This program prints the ASCII alphabet, in lowercase, not followed by a new line.
+- Prints all the letters except `q` and `e`
+- Used the string format for formatting
 - Only one loop used
 - Characters are not stored in any variable
 - No modules have been imported
