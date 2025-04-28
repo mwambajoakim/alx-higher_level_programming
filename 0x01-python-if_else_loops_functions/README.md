@@ -91,3 +91,8 @@ Used no more than 3 print functions with string format
 - Returns the value of `a + b`
 - No modules have been imported
 
+## 11 - This function computes a to the power of b and return the value. 
+- Prototype: `def pow(a, b):`
+- Returns the value of `a ^ b`
+- No modules have been imported
+
