@@ -46,3 +46,10 @@ Here in this project I go through the basics of Python. I also remind myself how
 - `word_first_3` contains the first 3 letters of the variable `word`
 - `word_last_2` contains the last 2 letters of the variable `word`
 - `middle_word` contains the value of the variable `word` without the first and last letters
+
+## 08 - This program prints `object-oriented programming with Python`, followed by a new line.
+- No loops or coditional statements used
+- Program is exactle 5 lines
+- No new variables were created
+- No string literals were used
+
