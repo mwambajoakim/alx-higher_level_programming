@@ -53,3 +53,15 @@ Just like in C programming Python also has ways of making decisions in the progr
 - Only one loop used
 - Characters and numbers are not stored in any variable
 - No modules have been imported
+
+## 06 - This program prints all possible different combinations of two digits.
+- Numbers are separated by `,`, followed by a space
+- The two digits must be different
+- `01` and `10` are considered the same combination of the two digits `0` and `1`
+- Prints only the smallest combination of two digits
+- Numbers are printed in ascending order, with two digits
+- The last number is followed by a new line
+Used no more than 3 print functions with string format
+- Only two loops used
+- Characters and numbers are not stored in any variable
+- No modules have been imported
