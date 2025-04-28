@@ -37,3 +37,10 @@ Just like in C programming Python also has ways of making decisions in the progr
 - Characters are not stored in any variable
 - No modules have been imported
 
+
+## 04 - This program prints all numbers from 0 to 98 in decimal and in hexadecimal
+
+- Used one print function with string format
+- Only one loop used
+- Characters and numbers are not stored in any variable
+- No modules have been imported
