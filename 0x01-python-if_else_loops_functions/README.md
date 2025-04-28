@@ -44,3 +44,12 @@ Just like in C programming Python also has ways of making decisions in the progr
 - Only one loop used
 - Characters and numbers are not stored in any variable
 - No modules have been imported
+
+## 05 - This program prints numbers from 0 to 99.
+- Numbers must be separated by `,`, followed by a space
+- Numbers are printed in ascending order, with two digits
+- The last number is followed by a new line
+- Used no more than 2 print functions with string format
+- Only one loop used
+- Characters and numbers are not stored in any variable
+- No modules have been imported
