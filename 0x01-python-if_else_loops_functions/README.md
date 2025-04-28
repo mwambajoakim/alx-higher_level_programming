@@ -80,3 +80,8 @@ Used no more than 3 print functions with string format
 - Only one loop used
 - No modules have been imported
 - No use of `str.upper()` and `str.isupper()`
+
+## 09 - This function prints the last digit of a number.
+- Prototype: `def print_last_digit(number):`
+- Returns the value of the last digit
+- No modules have been imported
