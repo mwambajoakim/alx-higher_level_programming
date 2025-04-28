@@ -39,3 +39,10 @@ Here in this project I go through the basics of Python. I also remind myself how
 - No loops or conditional statements used
 - The variables `str1` and `str2` were used
 - Program has exactly 5 lines 
+
+## 07 - This program uses python string slicing to achieve the requirements
+- No loops or conditionals used
+- Program is exactly 8 lines long
+- `word_first_3` contains the first 3 letters of the variable `word`
+- `word_last_2` contains the last 2 letters of the variable `word`
+- `middle_word` contains the value of the variable `word` without the first and last letters
