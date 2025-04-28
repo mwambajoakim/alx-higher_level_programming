@@ -73,3 +73,10 @@ Used no more than 3 print functions with string format
 - Returns `False` otherwise
 - No modules have been imported
 - No use of `str.upper()` and `str.isupper()`
+
+## 08 - This  function prints a string in uppercase followed by a new line.
+- Prototype: `def uppercase(str):`
+- Used no more than 2 print functions with string format
+- Only one loop used
+- No modules have been imported
+- No use of `str.upper()` and `str.isupper()`
