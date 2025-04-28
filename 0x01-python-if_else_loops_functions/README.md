@@ -65,3 +65,11 @@ Used no more than 3 print functions with string format
 - Only two loops used
 - Characters and numbers are not stored in any variable
 - No modules have been imported
+
+
+## 07 - This function checks for lowercase character.
+- Prototype: `def islower(c):`
+- Returns `True` if `c` is lowercase
+- Returns `False` otherwise
+- No modules have been imported
+- No use of `str.upper()` and `str.isupper()`
