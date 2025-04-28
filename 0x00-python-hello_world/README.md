@@ -20,8 +20,17 @@ Here in this project I go through the basics of Python. I also remind myself how
 - Used f-strings for formatting
 
 ## 04 - This program prints the float stored in the variable number with a precision of 2 digits.
-- The output of the program should be:
+- The output of the program is:
 	- `Float:`, followed by the float with only 2 digits
 	- followed by a new line
 - `number` is not cast to a string
 - Used f-strings for formatting
+
+## 05 - This program prints 3 times a string stored in the variable str, followed by its first 9 characters.
+- The output of the program is:
+	- 3 times the value of `str`
+	- followed by a new line
+	- followed by the 9 first characters of `str`
+	- followed by a new line
+- No loops or conditional statements
+- Program has a maximum of 5 lines
