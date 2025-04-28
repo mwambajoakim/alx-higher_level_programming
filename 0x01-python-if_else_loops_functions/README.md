@@ -10,4 +10,16 @@ Just like in C programming Python also has ways of making decisions in the progr
 		- if the number is greater than 0: `is positive`
 		- if the number is 0: `is zero`
 		- if the number is less than 0: `is negative`
-- followed by a new line
+- Followed by a new line
+
+## 01 - This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number.
+
+- The variable `number` stores a different value every time the program is ran
+- The output of the program is:
+	- The string `Last digit of`, followed by
+	- the `number`, followed by
+	- the string `is`, followed by the last digit of `number`, followed by
+		- if the last digit is greater than 5: the string `and is greater than 5`
+		- if the last digit is 0: the string `and is 0`
+		- if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
+- Followed by a new line
