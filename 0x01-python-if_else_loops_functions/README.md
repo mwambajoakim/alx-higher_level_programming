@@ -85,3 +85,9 @@ Used no more than 3 print functions with string format
 - Prototype: `def print_last_digit(number):`
 - Returns the value of the last digit
 - No modules have been imported
+
+## 10 - This function adds two integers and returns the result.
+- Prototype: `def add(a, b):`
+- Returns the value of `a + b`
+- No modules have been imported
+
