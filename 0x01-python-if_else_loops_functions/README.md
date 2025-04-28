@@ -102,4 +102,3 @@ Used no more than 3 print functions with string format
 - Prototype: `def fizzbuzz():`
 - Each element is followed by a space
 - No modules have been imported
-
