@@ -18,7 +18,7 @@ print("{}".format(c))
 
 ```
 
-## 00 - This program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
+## 00 - This program imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
 
 - Used print function with string format to display integers
 - Assigned the value:
@@ -30,3 +30,16 @@ print("{}".format(c))
 - Used the word` add_0` once in the code
 - Neither used `*` or `*__import__` for importing 
 - The code is not executed when imported - by using `__import__`
+
+## 01 - This program imports functions from the file calculator_1.py, does some Maths, and prints the result.
+
+- Did not use the function print (with string format to display integers) more than 4 times
+- Defined the value:
+	- `10` to a variable `a`
+	- `5` to a variable `b`
+- and used those two variables only, as arguments when calling functions (including `print`)
+- `a` and `b` are defined in 2 different lines: `a = 10` and another `b = 5`
+- The program calls each of the imported functions.
+- The word `calculator_1` is used only once in the file
+- Neither used `*` or `__import__` for importing 
+- The code is not executed when imported
