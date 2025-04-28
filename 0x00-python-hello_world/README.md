@@ -4,3 +4,6 @@ Here in this project I go through the basics of Python. I also remind myself how
 
 ## 00 - This Shell script runs a Python script.
 - The Python file name is saved in the environment variable `$PYFILE`
+
+## 01 - This Shell script runs Python code.
+- The Python code will be saved in the environment variable `$PYCODE`
