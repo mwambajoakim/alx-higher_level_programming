@@ -96,3 +96,10 @@ Used no more than 3 print functions with string format
 - Returns the value of `a ^ b`
 - No modules have been imported
 
+## 12 - This function prints the numbers from 1 to 100 separated by a space.
+- For multiples of three prints `Fizz` instead of the number and for multiples of five prints `Buzz`.
+- For numbers which are multiples of both three and five print `FizzBuzz`.
+- Prototype: `def fizzbuzz():`
+- Each element is followed by a space
+- No modules have been imported
+
