@@ -42,4 +42,15 @@ print("{}".format(c))
 - The program calls each of the imported functions.
 - The word `calculator_1` is used only once in the file
 - Neither used `*` or `__import__` for importing 
+- The code is not
+ executed when imported
+
+ ## 02 - This program prints the number of and the list of its arguments.
+- The output is:
+	- Number of argument(s) followed by `argument` (if number is one) or `arguments` (otherwise), followed by
+	- `:` (or `.` if no arguments were passed) followed by
+	- a new line, followed by (if at least one argument),
+	- one line per argument:
+		- the position of the argument (starting at `1`) followed by `:`, followed by the argument value and a new line
 - The code is not executed when imported
+The number of elements of `argv` is retrieved by using: `len(argv)`
