@@ -18,3 +18,11 @@ Python knows a number of compound data types, used to group together other value
 - If `idx` is out of range (> of number of element in `my_list`), the function returns None
 - No modules were imported
 - Did not use `try/except`
+
+## 02- This function replaces an element of a list at a specific position (like in C).
+
+- Prototype: `def replace_in_list(my_list, idx, element):`
+- If `idx` is negative, the function does not modify anything, and returns the original list
+- If `idx` is out of range (> of number of element in my_list), the function does not modify anything, and returns the original list
+- No modules were imported
+- Did not use `try/except`
