@@ -59,3 +59,7 @@ The number of elements of `argv` is retrieved by using: `len(argv)`
 - The output is the result of the addition of all arguments, followed by a new line
 - All arguments have been cast into integers by using `int() `(you can assume that all arguments can be casted into integers)
 - The code is not executed when imported
+
+# 05 - This program imports the variable a from the file variable_load_5.py and prints its value.
+- Neither used `*` or `__import__` for importing 
+- The code is not executed when imported
