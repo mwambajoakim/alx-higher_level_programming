@@ -54,3 +54,8 @@ print("{}".format(c))
 		- the position of the argument (starting at `1`) followed by `:`, followed by the argument value and a new line
 - The code is not executed when imported
 The number of elements of `argv` is retrieved by using: `len(argv)`
+
+## 03 - This program prints the result of the addition of all arguments
+- The output is the result of the addition of all arguments, followed by a new line
+- All arguments have been cast into integers by using `int() `(you can assume that all arguments can be casted into integers)
+- The code is not executed when imported
