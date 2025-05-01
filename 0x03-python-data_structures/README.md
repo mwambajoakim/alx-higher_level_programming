@@ -11,3 +11,10 @@ Python knows a number of compound data types, used to group together other value
 - Assuming that the list only contains integers
 - No integers were cast to a string
 - Used the `str.format()` to print integers
+
+## 01 - This function retrieves an element from a list like in C.
+- Prototype: `def element_at(my_list, idx):`
+- If `idx` is negative, the function returns None
+- If `idx` is out of range (> of number of element in `my_list`), the function returns None
+- No modules were imported
+- Did not use `try/except`
