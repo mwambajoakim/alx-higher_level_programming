@@ -41,3 +41,9 @@ Python knows a number of compound data types, used to group together other value
 - If `idx` is out of range (> of number of element in my_list), the function  returns a copy of the original list
 - No module was imported
 - No use of `try/except`
+
+## 05 - This function removes all characters c and C from a string.
+- Prototype: `def no_c(my_string):`
+- The function returns the new string
+- No modules were imported
+- No use of `str.replace()`
