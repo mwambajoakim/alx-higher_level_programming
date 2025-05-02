@@ -34,3 +34,10 @@ Python knows a number of compound data types, used to group together other value
 - Assuming that the list only contains integers
 - No integers were cast to a string
 - Used str.format() to print integers
+
+## 04 - This function replaces an element in a list at a specific position without modifying the original list (like in C).
+- Prototype: `def new_in_list(my_list, idx, element):`
+- If `idx` is negative, the function returns a copy of the original list
+- If `idx` is out of range (> of number of element in my_list), the function  returns a copy of the original list
+- No module was imported
+- No use of `try/except`
