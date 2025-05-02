@@ -26,3 +26,11 @@ Python knows a number of compound data types, used to group together other value
 - If `idx` is out of range (> of number of element in my_list), the function does not modify anything, and returns the original list
 - No modules were imported
 - Did not use `try/except`
+
+## 03 - This function prints all integers of a list, in reverse order.
+- Prototype: `def print_reversed_list_integer(my_list=[]):`
+- Format: one integer per line
+- No module was imported
+- Assuming that the list only contains integers
+- No integers were cast to a string
+- Used str.format() to print integers
