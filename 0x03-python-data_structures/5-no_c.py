@@ -9,7 +9,7 @@ def no_c(my_string):
             None
     """
     if my_string == "":
-        return None
+        return my_string
     new_string = ""
     for letter in my_string:
         if (letter != "c" and letter != "C"):
