@@ -88,3 +88,15 @@ Python knows a number of compound data types, used to group together other value
 - If `idx` is negative or out of range, nothing change (returns the same list)
 - No use of `pop()`
 - No imported modules
+
+## 12 - This code switches value of a and b
+- Your program is exactly 5 lines long
+- Completed the following source code
+	```
+	#!/usr/bin/python3
+	a = 89
+	b = 10
+	# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+	print("a={:d} - b={:d}".format(a, b))
+	```
+	
