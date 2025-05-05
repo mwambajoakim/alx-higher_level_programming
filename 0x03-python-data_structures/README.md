@@ -54,3 +54,13 @@ Python knows a number of compound data types, used to group together other value
 - Assumption that the list only contains integers
 - No integers cast into strings
 - Used `str.format()` to print integers
+
+## 07 - This function adds 2 tuples.
+- Prototype: `def add_tuple(tuple_a=(), tuple_b=()):`
+- Returns a tuple with 2 integers:
+- The first element is the addition of the first element of each argument
+- The second element is the addition of the second element of each argument
+- No modules are imported
+- Assuming that the two tuples will contain integers
+- If a tuple is smaller than 2, use the value `0` for each missing integer
+- If a tuple is bigger than 2, use only the first 2 integers
