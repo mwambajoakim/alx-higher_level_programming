@@ -39,11 +39,18 @@ Python knows a number of compound data types, used to group together other value
 - Prototype: `def new_in_list(my_list, idx, element):`
 - If `idx` is negative, the function returns a copy of the original list
 - If `idx` is out of range (> of number of element in my_list), the function  returns a copy of the original list
-- No module was imported
+- No modules are imported
 - No use of `try/except`
 
 ## 05 - This function removes all characters c and C from a string.
 - Prototype: `def no_c(my_string):`
 - The function returns the new string
-- No modules were imported
+- No modules are imported
 - No use of `str.replace()`
+
+## 06 - This function prints a matrix of integers.
+- Prototype: `def print_matrix_integer(matrix=[[]]):`
+- No modules are imported
+- Assumption that the list only contains integers
+- No integers cast into strings
+- Used `str.format()` to print integers
