@@ -18,4 +18,3 @@ def delete_at(my_list=[], idx=0):
             del my_list[i]
         i += 1
     return my_list
-        
