@@ -76,3 +76,9 @@ Python knows a number of compound data types, used to group together other value
 - Assuming that the list only contains integers
 - No imported modules
 - No use of the builtin `max()`
+
+## 10 - This function finds all multiples of 2 in a list.
+- Prototype: `def divisible_by_2(my_list=[]):`
+- Returns a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
+- The new list should have the same size as the original list
+- No imported modules
