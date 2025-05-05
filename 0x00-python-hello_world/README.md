@@ -55,3 +55,9 @@ Here in this project I go through the basics of Python. I also remind myself how
 
 ## 09 - This Python script prints “The Zen of Python”, by TimPeters, followed by a new line.
 - The script has a maximum 98 characters long (checked with `wc -m 9-easter_egg.py`)
+
+## 11 - This Python script prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
+- Used the function `write` from the `sys` module
+- No use of `print`
+- Script prints to `stderr`
+- Script exits with the status code 1
