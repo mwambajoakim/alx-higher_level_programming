@@ -82,3 +82,9 @@ Python knows a number of compound data types, used to group together other value
 - Returns a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
 - The new list should have the same size as the original list
 - No imported modules
+
+## 11 - This function deletes the item at a specific position in a list.
+- Prototype: `def delete_at(my_list=[], idx=0):`
+- If `idx` is negative or out of range, nothing change (returns the same list)
+- No use of `pop()`
+- No imported modules
