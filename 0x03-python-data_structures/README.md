@@ -69,3 +69,10 @@ Python knows a number of compound data types, used to group together other value
 - Prototype: `def multiple_returns(sentence):`
 - If the `sentence` is empty, the first character should be equal to `None`
 - No imported modules
+
+## 09 - This function finds the biggest integer of a list.
+- Prototype: `def max_integer(my_list=[]):`
+- If the list is empty, returns `None`
+- Assuming that the list only contains integers
+- No imported modules
+- No use of the builtin `max()`
