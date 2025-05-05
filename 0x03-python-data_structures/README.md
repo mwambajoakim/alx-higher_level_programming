@@ -64,3 +64,8 @@ Python knows a number of compound data types, used to group together other value
 - Assuming that the two tuples will contain integers
 - If a tuple is smaller than 2, use the value `0` for each missing integer
 - If a tuple is bigger than 2, use only the first 2 integers
+
+## 08 - This function returns a tuple with the length of a string and its first character.
+- Prototype: `def multiple_returns(sentence):`
+- If the `sentence` is empty, the first character should be equal to `None`
+- No imported modules
