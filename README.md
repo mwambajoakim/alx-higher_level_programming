@@ -11,3 +11,5 @@ An exploration into the widely acclaimed easy language for beginners to learn.
 3. [0x02-python_import_modules](https://github.com/mwambajoakim/alx-higher_level_programming/tree/main/0x02-python-import_modules)
 
 4. [0x03-python-data_structures](https://github.com/mwambajoakim/alx-higher_level_programming/tree/main/0x03-python-data_structures)
+
+5. [0x04-python-more_data_structures](https://github.com/mwambajoakim/alx-higher_level_programming/tree/main/0x04-python-more_data_structures)
