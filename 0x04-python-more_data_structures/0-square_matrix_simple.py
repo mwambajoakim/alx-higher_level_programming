@@ -8,10 +8,4 @@ def square_matrix_simple(matrix=[[]]):
         Return:
         list matrix of squares
     """
-    new_matrix = []
-    new = 1
-    for row in matrix:
-        for num in row:
-            new = num ** 2
-            new_matrix.append(new)
-    return new_matrix
+    return [[num ** 2 for num in row]for row in matrix]
