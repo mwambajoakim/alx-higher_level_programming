@@ -14,3 +14,13 @@ Besides lists and tuples, python has other data structures that help with data o
 Besiedes being immutable, they do not hold **duplicate data**.
 
 Dictionaries are also unordered and mutable. The data can be accessed through _keys_. Dictionaries have the form: _variable = {'key': value}_
+
+## 00 - This function computes the square value of all integers of a matrix.
+- Prototype: `def square_matrix_simple(matrix=[]):`
+- `matrix` is a 2 dimensional array
+- Returns a new matrix:
+	- Same size as `matrix`
+	- Each value is the square of the value of the input
+- Initial matrix is not modified
+-No importeed modules
+- Allowed use of regular loops, `map`, etc.
