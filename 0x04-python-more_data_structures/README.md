@@ -1,4 +1,4 @@
-# <ins>More Data tructures: Set, Dictionary</ins>
+# <ins>More Data Structures: Set, Dictionary</ins>
 
 ## Introduction
 Besides lists and tuples, python has other data structures that help with data organizaion and manipulation. These are:
@@ -82,3 +82,13 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - If no score found, return `None`
 - Assume all students have a different score
 - No imported modules
+
+## 11 - This function returns a list with all values multiplied by a number without using any loops.
+- Prototype: `def multiply_list_map(my_list=[], number=0):`
+- Returns a new list:
+	- Same length as `my_list`
+	- Each value should be multiplied by `number`
+- Initial list should not be modified
+- No imported modules
+- Used `map`
+- File is max 3 lines
