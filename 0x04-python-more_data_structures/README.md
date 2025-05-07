@@ -31,3 +31,7 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - `search` is the element to replace in the list
 - `replace` is the new element
 - No modules imported
+
+## 02 - This function adds all unique integers in a list (only once for each integer).
+- Prototype: `def uniqa_add(my_list=[]):`
+- No imported modules
