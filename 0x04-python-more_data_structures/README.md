@@ -69,3 +69,9 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - `key` argument will be always a string
 - If a key doesn’t exist, the dictionary won’t change
 - No imported modules
+
+## 09 - This function returns a new dictionary with all values multiplied by 2
+- Prototype: `def multiply_by_2(a_dictionary):`
+- You can assume that all values are only integers
+- Returns a new dictionary
+- No imported module
