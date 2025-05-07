@@ -63,3 +63,9 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - If a key exists in the dictionary, the value will be replaced
 - If a key doesn’t exist in the dictionary, it will be created
 - No imported modules
+
+## 08 - This function deletes a key in a dictionary.
+- Prototype: `def simple_delete(a_dictionary, key=""):`
+- `key` argument will be always a string
+- If a key doesn’t exist, the dictionary won’t change
+- No imported modules
