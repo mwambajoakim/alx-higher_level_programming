@@ -43,3 +43,7 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 ## 04 - This function returns a set of all elements present in only one set.
 - Prototype: `def only_diff_elements(set_1, set_2):`
 - No imported module
+
+## 05 - This function returns the number of keys in a dictionary.
+- Prototype: `def number_keys(a_dictionary):`
+- No imported module
