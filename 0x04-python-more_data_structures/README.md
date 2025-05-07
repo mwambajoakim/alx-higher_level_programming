@@ -39,3 +39,7 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 ## 03 - This function returns a set of common elements in two sets.
 - Prototype: `def common_elements(set_1, set_2):`
 - No imported modules
+
+## 04 - This function returns a set of all elements present in only one set.
+- Prototype: `def only_diff_elements(set_1, set_2):`
+- No imported module
