@@ -55,3 +55,11 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - Only sort keys of the first level (don’t sort keys of a dictionary inside the main dictionary)
 - Dictionary values can have any type
 - No imported modules
+
+## 07 - This function replaces or adds key/value in a dictionary.
+- Prototype: `def update_dictionary(a_dictionary, key, value):`
+- `key` argument will be always a string
+- `value` argument will be any type
+- If a key exists in the dictionary, the value will be replaced
+- If a key doesn’t exist in the dictionary, it will be created
+- No imported modules
