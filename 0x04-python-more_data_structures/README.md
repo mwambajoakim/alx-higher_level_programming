@@ -35,3 +35,7 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 ## 02 - This function adds all unique integers in a list (only once for each integer).
 - Prototype: `def uniqa_add(my_list=[]):`
 - No imported modules
+
+## 03 - This function returns a set of common elements in two sets.
+- Prototype: `def common_elements(set_1, set_2):`
+- No imported modules
