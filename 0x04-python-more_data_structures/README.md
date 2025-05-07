@@ -75,3 +75,10 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - You can assume that all values are only integers
 - Returns a new dictionary
 - No imported module
+
+## 10 - This function returns a key with the biggest integer value.
+- Prototype: `def best_score(a_dictionary):`
+- Assume that all values are only integers
+- If no score found, return `None`
+- Assume all students have a different score
+- No imported modules
