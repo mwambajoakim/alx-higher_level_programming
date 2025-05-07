@@ -24,3 +24,10 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 - Initial matrix is not modified
 -No importeed modules
 - Allowed use of regular loops, `map`, etc.
+
+## 01 - This function replaces all occurrences of an element by another in a new list.
+- Prototype: `def search_replace(my_list, search, replace):`
+- `my_list` is the initial list
+- `search` is the element to replace in the list
+- `replace` is the new element
+- No modules imported
