@@ -47,3 +47,11 @@ Dictionaries are also unordered and mutable. The data can be accessed through _k
 ## 05 - This function returns the number of keys in a dictionary.
 - Prototype: `def number_keys(a_dictionary):`
 - No imported module
+
+## 06 - This function prints a dictionary by ordered keys.
+- Prototype: `def print_sorted_dictionary(a_dictionary):`
+- Assume that all keys are strings
+- Keys will be sorted by alphabetic order
+- Only sort keys of the first level (don’t sort keys of a dictionary inside the main dictionary)
+- Dictionary values can have any type
+- No imported modules
