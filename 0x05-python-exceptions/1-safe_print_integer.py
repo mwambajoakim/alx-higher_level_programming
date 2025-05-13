@@ -8,4 +8,9 @@ def safe_print_integer(value):
         Return:
             None
     """
-    
+    try:
+        number = int(value)
+        print("{:d}".format(number))
+        return number
+    except Exception:
+        print("{}".format(value))
