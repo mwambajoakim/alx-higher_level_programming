@@ -43,3 +43,12 @@ Python offers a way to handle errors and help the user of your code not to panic
 - Used `"{:d}".format()` to print an integer
 - No imported modules
 - No use of `len()`
+
+## 03 - This function divides 2 integers and prints the result.
+- Prototype: `def safe_print_division(a, b):`
+- Assuming that `a` and `b` are integers
+- The result of the division should print on the `finally:` section preceded by `Inside result:`
+- Returns the value of the division, otherwise: `None`
+- Used `try: / except: / finally:`
+- Used `"{}".format()` to print the result
+- No modules imported
