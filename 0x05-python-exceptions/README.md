@@ -52,3 +52,7 @@ Python offers a way to handle errors and help the user of your code not to panic
 - Used `try: / except: / finally:`
 - Used `"{}".format()` to print the result
 - No modules imported
+
+## 05 - This function raises a type exception.
+- Prototype: `def raise_exception():`
+- No imported modules
