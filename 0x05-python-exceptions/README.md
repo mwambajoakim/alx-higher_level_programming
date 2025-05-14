@@ -56,3 +56,7 @@ Python offers a way to handle errors and help the user of your code not to panic
 ## 05 - This function raises a type exception.
 - Prototype: `def raise_exception():`
 - No imported modules
+
+## 06 - This unction raises a name exception with a message.
+- Prototype: `def raise_exception_msg(message=""):`
+- No imported modules
