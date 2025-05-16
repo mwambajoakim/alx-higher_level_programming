@@ -10,7 +10,7 @@ if [ $? -ne 0 ]; then
 	exit 1
 fi
 
-compiled_dir="__py.cache__"
+compiled_dir="__pycache__"
 compiled_file=$(ls $compiled_dir | grep "$(basename "$PYFILE" .py).*\.pyc")
 
 mv "$compiled_dir/$compiled_file" "${PYFILE}c"
