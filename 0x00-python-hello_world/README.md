@@ -62,6 +62,12 @@ Here in this project I go through the basics of Python. I also remind myself how
 - Script prints to `stderr`
 - Script exits with the status code 1
 
+## 13 - This script compiles a Python script file.
+
+- The Python file name will be stored in the environment variable `$PYFILE`
+
+- The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
+
 ## 12 - This Python function `def magic_calculation(a, b):` does exactly the same as the following Python bytecode:
 ```
   3           0 LOAD_CONST               1 (98)
