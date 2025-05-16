@@ -1,3 +1,20 @@
 #!/bin/bash
-test="$PYFILE"
-python3 -m py_compile "$test"
+if [ -z "$PYFILE" ]; then
+	echo "$PYFILE environment variable not set"
+	exit 1
+fi
+python3 -m py_compile "$PYFILE"
+
+if [ $? -ne 0 ]; then
+	echo "Compilation failed."
+	exit 1
+fi
+
+compiled_dir="__py.cache__"
+compiled_file=$(ls $compiled_dir | grep "$(basename "$PYFILE" .py).*\.pyc")
+
+mv "$compiled_dir/$compiled_file" "${PYFILE}c"
+
+rmdir "$compiled_dir" 2>/dev/null
+
+echo "Compiled file saved as ${PYFILE}c"
