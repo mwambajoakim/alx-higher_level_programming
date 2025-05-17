@@ -102,3 +102,7 @@ Used no more than 3 print functions with string format
 - Prototype: `def fizzbuzz():`
 - Each element is followed by a space
 - No modules have been imported
+
+## 14 - Thisfunction creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+- Prototype: `def remove_char_at(str, n):`
+- No modules were imported
