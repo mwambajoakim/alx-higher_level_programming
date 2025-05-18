@@ -103,6 +103,12 @@ Used no more than 3 print functions with string format
 - Each element is followed by a space
 - No modules have been imported
 
+## 14 - This program prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line.
+- Used one print function with string format
+- Used one loop in the code
+- No characters stored in a variable
+- No modules imported
+
 ## 15 - Thisfunction creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
 - Prototype: `def remove_char_at(str, n):`
 - No modules were imported
