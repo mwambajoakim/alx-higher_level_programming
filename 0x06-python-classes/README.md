@@ -6,3 +6,6 @@ Classes are a way of grouping data together. It is a way to hold datat that is s
 In these classes we have attributes (characteristics) and we also have methods (actions). These are a way to help manipulate data for the different instances of a class.
 
 Let's delve in.
+
+## 00 - This empty class Square defines a square:
+- No modules were imported
