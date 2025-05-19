@@ -9,3 +9,8 @@ Let's delve in.
 
 ## 00 - This empty class Square defines a square:
 - No modules were imported
+
+## 01 - This class Square defines a square by: (based on `0-square.py`)
+- Private instance attribute: `size`
+- Instantiation with `size` (no type/value verification)
+- No modules imported
