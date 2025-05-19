@@ -15,3 +15,5 @@ An exploration into the widely acclaimed easy language for beginners to learn.
 5. [0x04-python-more_data_structures](https://github.com/mwambajoakim/alx-higher_level_programming/tree/main/0x04-python-more_data_structures)
 
 6. [0x05-python-exceptions](https://github.com/mwambajoakim/alx-higher_level_programming/tree/main/0x05-python-exceptions)
+
+7. [0x06-python-classes](https://github.com/mwambajoakim/alx-higher_level_programming/tree/main/0x06-python-classes)
