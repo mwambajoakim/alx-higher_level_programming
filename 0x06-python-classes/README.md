@@ -15,9 +15,17 @@ Let's delve in.
 - Instantiation with `size` (no type/value verification)
 - No modules imported
 
-## 02 - This class Square defines a square by: (based on 1-square.py)
+## 02 - This class Square defines a square by: (based on `1-square.py`)
 - Private instance attribute: `size`
 - Instantiation with optional size: `def __init__(self, size=0):`
 	- `size` must be an integer, otherwise raises a `TypeError` exception with the message `size must be an integer`
-	- if `size` is less than 0, raise a `ValueError` exception with the message `size must be >= 0`
+	- if `size` is less than 0, raises a `ValueError` exception with the message `size must be >= 0`
+- No imported modules
+
+## 03 - This class Square defines a square by: (based on `2-square.py`)
+- Private instance attribute: `size`
+- Instantiation with optional size: `def __init__(self, size=0):`
+	- `size` must be an integer, otherwise raises a `TypeError` exception with the message `size must be an integer`
+	- if `size` is less than 0, raises a `ValueError` exception with the message `size must be >= 0`
+- Public instance method: `def area(self):` that returns the current square area
 - No imported modules
