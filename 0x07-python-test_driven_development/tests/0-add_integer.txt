@@ -1,0 +1,35 @@
+This document contains doctest for the add_integer function.
+
+>>> def add_integer(a, b=98):
+...     int_a = a
+...     int_b = b
+...     if not isinstance(a, (int, float)):
+...             raise TypeError("a must be an integer")
+...     if not isinstance(b, (int, float)):
+...             raise TypeError("b must be an integer")
+...     if isinstance(a, float):
+...             int_a = int(a)
+...     if isinstance(b, float):
+...             int_b = int(b)
+...     return int_a + int_b
+
+>>> print(add_integer(1, 2))
+3
+>>> print(add_integer(100, -2))
+98
+>>> print(add_integer(2))
+100
+>>> print(add_integer(100.3, -2))
+98
+>>> try:
+...     print(add_integer(4, "School"))
+... except Exception as e:
+...     print(e)
+... 
+b must be an integer
+>>> try:
+...     print(add_integer(None))
+... except Exception as e:
+...     print(e)
+... 
+a must be an integer
