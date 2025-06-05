@@ -45,3 +45,5 @@ a must be an integer
 ...     print(e)
 ... 
 b must be an integer
+>>> print(add_integer(3.5, 4.9))
+7
