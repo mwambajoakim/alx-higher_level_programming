@@ -33,3 +33,15 @@ b must be an integer
 ...     print(e)
 ... 
 a must be an integer
+>>> try:
+...     print(add_integer("hello", 3))
+... except Exception as e:
+...     print(e)
+... 
+a must be an integer
+>>> try:
+...     print(add_integer(3, None))
+... except Exception as e:
+...     print(e)
+... 
+b must be an integer
