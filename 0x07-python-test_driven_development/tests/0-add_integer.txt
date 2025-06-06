@@ -21,9 +21,17 @@ Checking regular addition:
 	 >>> add_integer(2, 3)
 	 5
 
+Checking b always 98:
+	 >>> add_integer(2)
+	 100
+
 Checking positive with negative:
 	 >>> add_integer(2, -4)
 	 -2
+
+Checking float and negative number:
+	 >>> add_integer(100.3, -9)
+	 91
 
 Checking negative with positive:
 	 >>> add_integer(-6, 8)
