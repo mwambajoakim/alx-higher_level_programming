@@ -1,0 +1,47 @@
+These are tests for the function that prints a name
+===================================================
+
+Check if module import is successful:
+	 >>> say_my_name = __import__("3-say_my_name").say_my_name
+
+Check module docstring exists:
+	 >>> mod = __import__("3-say_my_name").__doc__
+ 	 >>> len(mod) > 1
+	 True
+
+Check function docstring exists:
+	 >>> func = __import__("3-say_my_name").say_my_name.__doc__
+	 >>> len(func) > 1
+	 True
+
+Check correct name and last name:
+	 >>> say_my_name("Jim", "Rohn")
+	 My name is Jim Rohn
+
+Check first name only:
+	 >>> say_my_name("Jim")
+	 My name is Jim
+
+Check first name and number:
+	 >>> try:
+	 ...     say_my_name("Jim", 9)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 last name must be a string
+
+Check number and last name:
+	 >>> try:
+	 ...     say_my_name(9, "Jim")
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 first name must be a string
+
+Check both names as numbers:
+	 >>> try:
+ 	 ...     say_my_name(2, 9)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 first name must be a string
