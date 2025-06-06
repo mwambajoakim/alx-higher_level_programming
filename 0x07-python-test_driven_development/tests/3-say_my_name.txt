@@ -28,7 +28,7 @@ Check first name and number:
 	 ... except Exception as e:
 	 ...     print(e)
 	 ... 
-	 last name must be a string
+	 last_name must be a string
 
 Check number and last name:
 	 >>> try:
@@ -36,7 +36,7 @@ Check number and last name:
 	 ... except Exception as e:
 	 ...     print(e)
 	 ... 
-	 first name must be a string
+	 first_name must be a string
 
 Check both names as numbers:
 	 >>> try:
@@ -44,7 +44,7 @@ Check both names as numbers:
 	 ... except Exception as e:
 	 ...     print(e)
 	 ... 
-	 first name must be a string
+	 first_name must be a string
 
 Check first name and a non-string:
 	 >>> try:
@@ -52,7 +52,7 @@ Check first name and a non-string:
 	 ... except Exception as e:
 	 ...     print(e)
 	 ... 
-	 last name must be a string
+	 last_name must be a string
 
 Check non-string and last name:
 	 >>> try:
@@ -60,7 +60,7 @@ Check non-string and last name:
 	 ... except Exception as e:
 	 ...     print(e)
 	 ... 
-	 first name must be a string
+	 first_name must be a string
 
 Check for no arguments:
 	 >>> try:
