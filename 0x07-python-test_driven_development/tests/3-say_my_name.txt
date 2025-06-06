@@ -20,7 +20,7 @@ Check correct name and last name:
 
 Check first name only:
 	 >>> say_my_name("Jim")
-	 My name is Jim
+	 My name is Jim 
 
 Check first name and number:
 	 >>> try:
