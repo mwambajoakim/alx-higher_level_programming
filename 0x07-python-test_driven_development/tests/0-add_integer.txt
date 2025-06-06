@@ -1,125 +1,125 @@
-"""This document contains doctest for the add_integer function."""
+This document contains doctest for the add_integer function.
 
-"""Check successful module import"""
+Check successful module import
 	>>> add_integer = __import__("0-add_integer").add_integer
-"""Check module docstring exists"""
+Check module docstring exists
 	>>> mod = __import__("0-add_integer").__doc__
 	>>> len(mod) > 1
 	True
-"""Check function docstring exists"""
+Check function docstring exists
 	>>> func = __import__("0-add_integer").add_integer.__doc__
 	>>> len(func) > 1
 	True
 
-"""Add a number and a number"""
+Add a number and a number
 	>>> print(add_integer(1, 2))
 	3
-"""Add a number and a negative"""
+Add a number and a negative
 	>>> print(add_integer(100, -2))
 	98
-"""Add a number"""
+Add a number
 	>>> print(add_integer(2))
 	100
-"""Add a float and a number"""
+Add a float and a number
 	>>> print(add_integer(100.3, -2))
 	98
-"""Add a number and a string"""
+Add a number and a string
 	>>> try:
 	...     print(add_integer(4, "School"))
 	... except Exception as e:
 	...     print(e)
 	... 
 	b must be an integer
-"""Add None"""
+Add None
 	>>> try:
 	...     print(add_integer(None))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add a string and a number"""
+Add a string and a number
 	>>> try:
 	...     print(add_integer("hello", 3))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add a number and None"""
+Add a number and None
 	>>> try:
 	...     print(add_integer(3, None))
 	... except Exception as e:
 	...     print(e)
 	... 
 	b must be an integer
-"""Add a None and a number"""
+Add a None and a number
 	>>> try:
 	...     print(add_integer(None, 4))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add two floats"""
+Add two floats
 	>>> print(add_integer(3.4, 8.7))
 	11
-"""Add a float and a number"""
+Add a float and a number
 	>>> print(add_integer(4.5))
 	102
-"""Add a number and a NaN"""
+Add a number and a NaN
 	>>> try:
 	...     print(add_integer(2, [9, 0]))
 	... except Exception as e:
 	...     print(e)
 	... 
 	b must be an integer
-"""Add a NaN and a number"""
+Add a NaN and a number
 	>>> try:
 	...     print(add_integer([1, 2], 3))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add two strings"""
+Add two strings
 	>>> try:
 	...     print(add_integer("hello", "world"))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add a string and a float"""
+Add a string and a float
 	>>> try:
 	...     print(add_integer("hello", 3.5))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add a float and a string"""
+Add a float and a string
 	>>> try:
 	...     print(add_integer(3.5, "world"))
 	... except Exception as e:
 	...     print(e)
 	... 
 	b must be an integer
-"""Add a string and None"""
+Add a string and None
 	>>> try:
 	...     print(add_integer("hello", None))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add None and a string"""
+Add None and a string
 	>>> try:
 	...     print(add_integer(None, "world"))
 	... except Exception as e:
 	...     print(e)
 	... 
 	b must be an integer
-"""Add two Nones"""
+Add two Nones
 	>>> try:
 	...     print(add_integer(None, None))
 	... except Exception as e:
 	...     print(e)
 	... 
 	a must be an integer
-"""Add a number and a boolean"""
+Add a number and a boolean
 	>>> print(add_integer(5, True))
 	6
