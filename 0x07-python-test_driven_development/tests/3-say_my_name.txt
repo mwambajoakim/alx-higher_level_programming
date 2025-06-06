@@ -45,3 +45,35 @@ Check both names as numbers:
 	 ...     print(e)
 	 ... 
 	 first name must be a string
+
+Check first name and a non-string:
+	 >>> try:
+	 ...     say_my_name("Jim", ["Ron"])
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 last name must be a string
+
+Check non-string and last name:
+	 >>> try:
+	 ...     say_my_name(["Jim"], "Rohn")
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 first name must be a string
+
+Check for no arguments:
+	 >>> try:
+	 ...     say_my_name()
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 say_my_name() missing 1 required positional argument: 'first_name'
+
+Check for more than two arguments:
+	 >>> try:
+	 ...     say_my_name("Jim", "Rohn", "Lynn")
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 say_my_name() takes from 1 to 2 positional arguments but 3 were given
