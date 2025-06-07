@@ -18,4 +18,3 @@ def print_square(size):
         for i in range(size):
             print("{}".format("#"), end="")
         print()
-    print()
