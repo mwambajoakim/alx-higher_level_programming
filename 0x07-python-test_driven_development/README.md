@@ -37,3 +37,9 @@ In the OOP approach, `unittests` are used to test for code. The different ways a
 - if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
 - if `size` is a float and is less than `0`, raise a `TypeError` exception with the message `size must be an integer`
 - No modules were imported
+
+## 04 - This function prints a text with 2 new lines after each of these characters: ., ? and :
+- Prototype: `def text_indentation(text):`
+- `text` must be a string, otherwise raise a `TypeError` exception with the message `text must be a string`
+- There should be no space at the beginning or at the end of each printed line
+- No module was imported
