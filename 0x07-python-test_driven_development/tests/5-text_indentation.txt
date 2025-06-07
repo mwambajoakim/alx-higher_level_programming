@@ -1,0 +1,75 @@
+This test is a test for a function that prints 2 new lines after each of the characters '.', '?', and ':' in a given string.
+============================================================================================================================
+
+Check module import successful:
+	 >>> text_indentation = __import__("5-text_indentation").text_indentation
+	 
+Check module docstring exists:
+	 >>> mod = __import__("5-text_indentation").__doc__
+	 >>> len(mod) > 1
+	 True
+
+Check function docstring exists:
+	 >>> func = __import__("5-text_indentation").text_indentation.__doc__
+	 >>> len(func) > 1
+	 True
+
+Check text with no special characters:
+	 >>> text = "This is a test string with no special characters."
+	 >>> text_indentation(text)
+	 This is a test string with no special characters.
+
+Check text with special characters:
+	 >>> text = "This is a test string. It has some special characters: like this? And this?"
+	 >>> text_indentation(text)
+	 This is a test string.
+
+	 It has some special characters:
+
+	 like this?
+
+	 And this?
+
+Check text with multiple special characters:
+	 >>> text = "This is a test string. It has some special characters: like this? And this: and this."
+	 >>> text_indentation(text)
+	 This is a test string.
+
+	 It has some special characters:
+
+	 like this?
+
+	 And this:
+
+	 and this.
+
+Check text with no spaces after special characters:
+	 >>> text = "This is a test string. It has some special characters:like this?And this:"
+	 >>> text_indentation(text)
+	 This is a test string.
+
+	 It has some special characters:
+
+	 like this?
+
+	 And this:
+	 
+	 and this.
+	 
+Check text with numbers only:
+	 >>> text = 8974283942893479877865786347865927343
+	 >>> try:
+	 ...     text_indentation(text)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 text must be a string
+
+Check text as a list:
+	 >>> text = ["This is amazing?", "I thought it is.", "Oh yes it is: Think about it"]
+	 >>> try:
+	 ...     text_indentation(text)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 text must be a string
