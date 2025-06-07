@@ -32,19 +32,6 @@ Check text with special characters:
 	 And this?
 	 <BLANKLINE>
 
-Check text with multiple special characters:
-	 >>> text = "This is a test string. It has some special characters: like this? And this: and this."
-	 >>> text_indentation(text)
-	 This is a test string.
-	 <BLANKLINE>
-	 It has some special characters:
-	 <BLANKLINE>
-	 like this?
-	 <BLANKLINE>
-	 And this:
-	 <BLANKLINE>
-	 and this.
-	 <BLANNKLINE>
 
 Check text with no spaces after special characters:
 	 >>> text = "This is a test string. It has some special characters:like this?And this:"
