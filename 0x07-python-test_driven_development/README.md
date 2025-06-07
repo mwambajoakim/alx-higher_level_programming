@@ -8,6 +8,13 @@ There is interactive testing and OOP testing. In the former, the module `doctest
 
 In the OOP approach, `unittests` are used to test for code. The different ways are used by different proogrammers. For instance, the unittest way is used to test code that is majorly in classes. That is why it is OOP oriented.
 
+## 00 - This function  adds 2 integers.
+- Prototype: `def add_integer(a, b=98):`
+- `a` and `b` must be integers or floats, otherwise raise a `TypeError` exception with the message `a must be an integer` or `b must be an integer`
+- `a` and `b` must be first casted to integers if they are float
+- Returns an integer: the addition of `a` and `b`
+- No module was imported
+
 ## 02 - This function prints My name is <first name> <last name>
 - Prototype: `def say_my_name(first_name, last_name=""):`
 - `first_name` and `last_name` must be strings otherwise, raises a `TypeError` exception with the message `first_name must be a string` or `last_name must be a string`
