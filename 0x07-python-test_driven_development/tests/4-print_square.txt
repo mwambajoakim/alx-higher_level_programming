@@ -1,0 +1,66 @@
+This a test of the function that prints a square
+================================================
+
+Check module import successful:
+	 >>> print_square = __import__("4-print_square").print_square
+
+Check module docstring exists:
+	 >>> mod = __import__("4-print_square").__doc__
+	 >>> len(mod) > 1
+	 True
+
+Check function docstring exists:
+	 >>> func = __import__("4-print_square").print_square.__doc__
+	 >>> len(func) > 1
+	 True
+
+Check square with size positive number:
+	 >>> print_square(7)
+	 #######
+	 #######
+	 #######
+	 #######
+	 #######
+	 #######
+	 #######
+	 
+
+Check square with size negative number:
+	 >>> try:
+	 ...     print_square(-3)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 size must be >= 0
+
+Check square with size float:
+	 >>> try:
+	 ...     print_square(4.5)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 size must be an integer
+
+Check square with size infinity:
+	 >>> try:
+	 ...     print_square('inf')
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 size must be an integer
+
+Check square with size string:
+	 >>> try:
+	 ...     print_square("7")
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 size must be an integer
+
+Check square with size list:
+	 >>> try:
+	 ...     print_square([7, 6])
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 size must be an integer
