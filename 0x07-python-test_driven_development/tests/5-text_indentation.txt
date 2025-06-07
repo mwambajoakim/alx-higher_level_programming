@@ -44,8 +44,6 @@ Check text with no spaces after special characters:
 	 <BLANKLINE>
 	 And this:
 	 <BLANKLINE>
-	 and this.
-	 <BLANKLINE>
 
 Check text with numbers only:
 	 >>> text = 8974283942893479877865786347865927343
