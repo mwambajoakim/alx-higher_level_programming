@@ -61,3 +61,29 @@ Check matrix elements divided by a list:
 	 ...     print(e)
 	 ... 
 	 div must be a number
+	
+Check no aruments supplied to function:
+	 >>> try:
+	 ...     matrix_divided()
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
+
+Check div argument not supplied:
+	 >>> try:
+	 ...     matrix_divided(matrix)
+	 ... except Exception as e:
+	 ...     print(e)
+	 ... 
+	 matrix_divided() missing 1 required positional argument: 'div'
+
+Check matrix elements divide by float:
+	 >>> matrix = [[2, 3], [9, 7], [8, 0]]
+	 >>> matrix_divided(matrix, 2.6)
+	 [[0.77, 1.15], [3.46, 2.69], [3.08, 0.0]]
+
+Check matrix of elements zero divided by a float:
+	 >>> matrix = [[0, 0], [0, 0], [0, 0]]
+	 >>> matrix_divided(matrix, 2.6)
+	 [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
