@@ -87,3 +87,8 @@ Check matrix of elements zero divided by a float:
 	 >>> matrix = [[0, 0], [0, 0], [0, 0]]
 	 >>> matrix_divided(matrix, 2.6)
 	 [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
+
+Check matrix elements divided by an infinity:
+	 >>> matrix = [[2, 3], [9, 7], [8, 0]]
+	 >>> matrix_divided(matrix, float('inf'))
+	 [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
