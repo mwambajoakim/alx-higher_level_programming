@@ -64,3 +64,7 @@ Check square with size list:
 	 ...     print(e)
 	 ... 
 	 size must be an integer
+
+Check square with size zero:
+	 >>> print_square(0)
+
