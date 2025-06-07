@@ -30,3 +30,10 @@ In the OOP approach, `unittests` are used to test for code. The different ways a
 - `first_name` and `last_name` must be strings otherwise, raises a `TypeError` exception with the message `first_name must be a string` or `last_name must be a string`
 - No modules were imported
 
+## 03 - This function prints a square with the character #.
+- Prototype: `def print_square(size):`
+- `size` is the size length of the square
+- `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+- if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
+- if `size` is a float and is less than `0`, raise a `TypeError` exception with the message `size must be an integer`
+- No modules were imported
