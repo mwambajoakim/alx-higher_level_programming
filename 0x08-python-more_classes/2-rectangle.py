@@ -48,5 +48,6 @@ class Rectangle:
         per = 0
         if self.__width == 0 or self.__height == 0:
             per = 0
-        per = 2 * (self.__width + self.__height)
+        else:
+            per = 2 * (self.__width + self.__height)
         return per
