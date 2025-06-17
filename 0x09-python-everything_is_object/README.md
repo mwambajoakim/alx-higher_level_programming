@@ -155,3 +155,8 @@ l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
 ```
+
+## 19 - This function def copy_list(list=[]): returns a copy of a list.
+- The input list can contain any type of objects
+- Your file should be maximum 3-line long (no documentation needed)
+- You are not allowed to import any module
