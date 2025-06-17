@@ -175,3 +175,8 @@ a = (1, 2)
 ```
 a = (1)
 ```
+
+## 23 - Is a a tuple? Answer with Yes or No.
+```
+a = (1, )
+```
