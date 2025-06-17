@@ -29,3 +29,9 @@ OK. But what about this?
 
 ## 01 - How do you get the variable identifier (which is the memory address in the CPython implementation)?
 - Write the name of the function in the file, without ().
+
+## 02 - In the following code, do a and b point to the same object? Answer with Yes or No.
+```
+>>> a = 89
+>>> b = 100
+```
