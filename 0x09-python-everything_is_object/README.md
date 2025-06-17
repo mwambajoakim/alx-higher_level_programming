@@ -23,3 +23,6 @@ OK. But what about this?
 ['x', 2, 3]
 >>> 
 ```
+
+## 00 - Function to get the type of an object?
+Write the name of the function in the file, without `()`.
