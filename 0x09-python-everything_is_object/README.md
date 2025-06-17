@@ -180,3 +180,10 @@ a = (1)
 ```
 a = (1, )
 ```
+
+## 24 - What does this script print?
+```
+a = (1)
+b = (1)
+a is b
+```
