@@ -165,3 +165,8 @@ print(l1)
 ```
 a = ()
 ```
+
+## 21 - Is a a tuple? Answer with Yes or No.
+```
+a = (1, 2)
+```
