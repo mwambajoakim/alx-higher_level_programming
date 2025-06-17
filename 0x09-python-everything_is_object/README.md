@@ -134,3 +134,13 @@ a = 1
 increment(a)
 print(a)
 ```
+
+## 17 - What does this script print?
+```
+def increment(n):
+    n.append(4)
+
+l = [1, 2, 3]
+increment(l)
+print(l)
+```
