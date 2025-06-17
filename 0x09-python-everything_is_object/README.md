@@ -80,3 +80,10 @@ OK. But what about this?
 >>> s2 = "Best School"
 >>> print(s1 is s2)
 ```
+
+## 10 - What do these 3 lines print?
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 == l2)
+```
