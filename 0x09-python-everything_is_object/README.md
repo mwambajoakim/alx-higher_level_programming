@@ -25,4 +25,7 @@ OK. But what about this?
 ```
 
 ## 00 - Function to get the type of an object?
-Write the name of the function in the file, without `()`.
+- Write the name of the function in the file, without `()`.
+
+## 01 - How do you get the variable identifier (which is the memory address in the CPython implementation)?
+- Write the name of the function in the file, without ().
