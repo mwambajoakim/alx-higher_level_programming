@@ -6,6 +6,5 @@ attributes of a class"""
 def lookup(obj):
     """Returns list of available attributes and methods"""
     list = []
-    for attr in obj:
-        list.append(attr)
+    list.append(dir(obj))
     return list
