@@ -3,7 +3,8 @@
 
 
 def is_same_class(obj, a_class):
-    """Returns True if the object is exactly an instance of the specified class
+    """Returns True if the object is exactly
+    an instance of the specified class
 
         Args:
             obj: Object
@@ -13,7 +14,7 @@ def is_same_class(obj, a_class):
             True if object is instance of class
             False if otherwise
     """
-    if type(obj) == a_class:
+    if type(obj) is a_class:
         return True
     else:
         return False
