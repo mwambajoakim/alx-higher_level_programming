@@ -17,3 +17,8 @@ class Dog(Animal):
 	  print("{} barks".format(self.name))
 ```
 The `Dog` is a subclass of `Animal`. Any instance of `Dog` created will inherit from `Animal`.
+
+## 00 - This function returns the list of available attributes and methods of an object:
+- Prototype: `def lookup(obj):`
+- Returns a list object
+- No modules imported
