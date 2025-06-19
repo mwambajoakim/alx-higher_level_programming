@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Checks ifobjec t is instance o class"""
+"""Checks if object is instance o class"""
 
 
 def is_same_class(obj, a_class):
@@ -13,7 +13,7 @@ def is_same_class(obj, a_class):
             True if object is instance of class
             False if otherwise
     """
-    if isinstance(obj, a_class):
+    if type(obj) == a_class:
         return True
     else:
         return False
