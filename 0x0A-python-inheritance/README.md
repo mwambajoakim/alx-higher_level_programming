@@ -22,3 +22,8 @@ The `Dog` is a subclass of `Animal`. Any instance of `Dog` created will inherit 
 - Prototype: `def lookup(obj):`
 - Returns a list object
 - No modules imported
+
+## 01 - This class MyList inherits from list:
+- Public instance method: `def print_sorted(self):` that prints the list, but sorted (ascending sort)
+- You can assume that all the elements of the list will be of type `int`
+- No modules imported
