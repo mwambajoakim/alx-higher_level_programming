@@ -37,3 +37,25 @@ Check for floats:
 	>>> mylist = MyList(l1)
 	>>> mylist.print_sorted()
 	[0.5, 1.2, 3.2, 8, 8.7, 9]
+
+Check for append:
+	>>> mylist = MyList()
+	>>> mylist.append(2)
+	>>> mylist.append(4)
+	>>> mylist.append(1)
+	>>> mylist
+	[2, 4, 1]
+	>>> mylist.print_sorted()
+	[1, 2, 4]
+
+Check method returns a new list:
+	>>> mylist = MyList()
+	>>> mylist.append(2)
+	>>> mylist.append(4)
+	>>> mylist.append(1)
+	>>> mylist
+	[2, 4, 1]
+	>>> mylist.print_sorted()
+	[1, 2, 4]
+	>>> mylist
+	[2, 4, 1]
