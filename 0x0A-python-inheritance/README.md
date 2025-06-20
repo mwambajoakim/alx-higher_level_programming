@@ -45,3 +45,7 @@ The `Dog` is a subclass of `Animal`. Any instance of `Dog` created will inherit 
 ## 05 - This is an empty class BaseGeometry.
 - ` class BaseGeometry`
 - No modules imported
+
+## 06 - This is a class BaseGeometry (based on 5-base_geometry.py).
+- Public instance method: `def area(self):` that raises an `Exception` with the message `area() is not implemented`
+- No modules imported
