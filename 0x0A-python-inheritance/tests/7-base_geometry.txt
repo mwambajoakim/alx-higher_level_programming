@@ -1,0 +1,52 @@
+"""Tests for an integer validator method in a class"""
+
+Check successful module import:
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Check for successful class instantiation:
+	>>> basegeom = BaseGeometry()
+	>>> basegeom
+	<7-base_geometry.BaseGeometry object at 0x762120893e00>
+
+Check for a positive number:
+	>>> basegeom.integer_validator("Joe", 26)
+
+Check for negative number:
+	>>> try:
+	...     basegeom.integer_validator("Kim", -9)
+	... except Exception as e:
+	...     print(e)
+	... 
+	Kim must be greater than 0
+
+Check for a number as a string:
+	>>> try:
+	...     basegeom.integer_validator("Joe", "2")
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be an integer
+
+Check for number as 0:
+	>>> try:
+	...     basegeom.integer_validator("Joe", 0)
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be greater than 0
+
+Check for one argument:
+	>>> try:
+	...     basegeom.integer_validator("Joe")
+	... except Exception as e:
+	...     print(e)
+	... 
+	BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+
+Check with a list:
+	>>> try:
+	...     basegeom.integer_validator("Joe", [7, 8])
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be an integer
