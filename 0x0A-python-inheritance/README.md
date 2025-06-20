@@ -40,3 +40,8 @@ The `Dog` is a subclass of `Animal`. Any instance of `Dog` created will inherit 
 ## 04 - This function returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
 - Prototype: `def inherits_from(obj, a_class):`
 - No modules imported
+
+
+## 05 - This is an empty class BaseGeometry.
+- ` class BaseGeometry`
+- No modules imported
