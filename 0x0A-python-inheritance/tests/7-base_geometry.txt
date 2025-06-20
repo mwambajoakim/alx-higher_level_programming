@@ -5,8 +5,6 @@ Check successful module import:
 
 Check for successful class instantiation:
 	>>> basegeom = BaseGeometry()
-	>>> basegeom
-	<7-base_geometry.BaseGeometry object at 0x762120893e00>
 
 Check for a positive number:
 	>>> basegeom.integer_validator("Joe", 26)
