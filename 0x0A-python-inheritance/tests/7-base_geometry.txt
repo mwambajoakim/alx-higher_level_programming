@@ -48,3 +48,35 @@ Check with a list:
 	...     print(e)
 	... 
 	Joe must be an integer
+
+Check for a non-integer(tuple):
+	>>> try:
+	...     basegeom.integer_validator("Joe", (7, 8))
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be an integer
+
+Check for a non-integer(None):
+	>>> try:
+	...     basegeom.integer_validator("Joe", None)
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be an integer
+
+Check for missing name argument:
+	>>> try:
+	...     basegeom.integer_validator(2)
+	... except Exception as e:
+	...     print(e)
+	... 
+	BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+
+Check for more than two arguments:
+	>>> try:
+	...     basegeom.integer_validator("Joe", 2, 2)
+	... except Exception as e:
+	...     print(e)
+	... 
+	BaseGeometry.integer_validator() takes 3 positional arguments but 4 were given
