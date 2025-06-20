@@ -3,6 +3,11 @@
 Import class:
 	>>> MyList = __import__('1-my_list').MyList
 
+Check for correct instantiation:
+	>>> mylist = MyList()
+	>>> mylist
+	[]
+
 Check for a randomized list:
 	>>> l1 = [3, 1, 9, 8, 6]
 	>>> sort = MyList(l1)
