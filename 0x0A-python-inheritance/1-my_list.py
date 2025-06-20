@@ -15,5 +15,4 @@ class MyList(list):
             A sorted list
     """
     def print_sorted(self):
-        print("{}".format(self.sort()))
-
+        print("{}".format(sorted(self)))
