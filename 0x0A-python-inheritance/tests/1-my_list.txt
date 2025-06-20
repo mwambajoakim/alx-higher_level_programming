@@ -31,3 +31,9 @@ Check for both positive and negative numbers:
 	>>> sort = MyList(l1)
 	>>> sort.print_sorted()
 	[-34, -5, -2, -2, 4, 5, 7, 9, 10]
+
+Check for floats:
+	>>> l1 = [3.2, 8,9, 1.2, 0.5, 8.7]
+	>>> mylist = MyList(l1)
+	>>> mylist.print_sorted()
+	[0.5, 1.2, 3.2, 8, 8.7, 9]
