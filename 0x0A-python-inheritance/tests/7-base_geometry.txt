@@ -64,3 +64,35 @@ Check for a non-integer(None):
 	...     print(e)
 	... 
 	Joe must be an integer
+
+Check for no arguments:
+	>>> try:
+	...     basegeom.integer_validator()
+	... except Exception as e:
+	...     print(e)
+	... 
+	BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+Check for non-integer(boolean):
+	>>> try:
+	...     basegeom.integer_validator("Joe", True)
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be an integer
+
+Check for non-integer(set):
+	>>> try:
+	...     basegeom.integer_validator("Joe", {1, 2})
+	... except Exception as e:
+	...     print(e)
+	... 
+	Joe must be an integer
+
+Check for missing integer:
+	>>> try:
+	...     basegeom.integer_validator("Joe")
+	... except Exception as e:
+	...     print(e)
+	... 
+	BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
