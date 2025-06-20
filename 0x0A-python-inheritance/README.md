@@ -35,3 +35,8 @@ The `Dog` is a subclass of `Animal`. Any instance of `Dog` created will inherit 
 ## 03 - This function returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
 - Prototype: `def is_kind_of_class(obj, a_class):`
 - No modules imported
+
+
+## 04 - This function returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+- Prototype: `def inherits_from(obj, a_class):`
+- No modules imported
