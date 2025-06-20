@@ -12,7 +12,7 @@ Check for a randomized list:
 Check for empty list:
 	>>> l1 = []
 	>>> sort = MyList(l1)
-	>>> sort.print_sorted
+	>>> sort.print_sorted()
 	[]
 
 Check for negative numbers:
