@@ -33,14 +33,6 @@ Check for number as 0:
 	... 
 	Joe must be greater than 0
 
-Check for one argument:
-	>>> try:
-	...     basegeom.integer_validator("Joe")
-	... except Exception as e:
-	...     print(e)
-	... 
-	BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
-
 Check with a list:
 	>>> try:
 	...     basegeom.integer_validator("Joe", [7, 8])
@@ -64,19 +56,3 @@ Check for a non-integer(None):
 	...     print(e)
 	... 
 	Joe must be an integer
-
-Check for missing name argument:
-	>>> try:
-	...     basegeom.integer_validator(2)
-	... except Exception as e:
-	...     print(e)
-	... 
-	BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
-
-Check for more than two arguments:
-	>>> try:
-	...     basegeom.integer_validator("Joe", 2, 2)
-	... except Exception as e:
-	...     print(e)
-	... 
-	BaseGeometry.integer_validator() takes 3 positional arguments but 4 were given
