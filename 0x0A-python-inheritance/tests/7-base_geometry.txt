@@ -6,6 +6,14 @@ Check successful module import:
 Check for successful class instantiation:
 	>>> basegeom = BaseGeometry()
 
+Check for area:
+	>>> try:
+	...     basegeom.area()
+	... except Exception as e:
+	...     print(e)
+	... 
+	area() is not implemented
+
 Check for a positive number:
 	>>> basegeom.integer_validator("Joe", 26)
 
