@@ -67,11 +67,11 @@ Check for a non-integer(None):
 
 Check for no arguments:
 	>>> try:
-	...     BaseGeometry.integer_validator()
+	...     basegeom.integer_validator()
 	... except Exception as e:
 	...     print(e)
 	... 
-	BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+	integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
 Check for non-integer(boolean):
 	>>> try:
@@ -91,8 +91,8 @@ Check for non-integer(set):
 
 Check for missing integer:
 	>>> try:
-	...     BaseGeometry.integer_validator("Joe")
+	...     basegeom.integer_validator("Joe")
 	... except Exception as e:
 	...     print(e)
 	... 
-	BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+	integer_validator() missing 1 required positional argument: 'value'
