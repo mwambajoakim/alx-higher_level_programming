@@ -49,3 +49,8 @@ The `Dog` is a subclass of `Animal`. Any instance of `Dog` created will inherit 
 ## 06 - This is a class BaseGeometry (based on 5-base_geometry.py).
 - Public instance method: `def area(self):` that raises an `Exception` with the message `area() is not implemented`
 - No modules imported
+
+## 07 - This class Rectangle inherits from BaseGeometry (7-base_geometry.py).
+- Instantiation with `width` and `height`: `def __init__(self, width, height):`
+- `width` and `height` must be private. No getter or setter
+- `width` and `height` must be positive integers, validated by `integer_validator`
