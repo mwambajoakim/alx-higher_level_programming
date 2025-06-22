@@ -11,9 +11,9 @@ class Rectangle(BaseGeometry):
             height: Height of the rectangle
     """
     def __init__(self, width, height):
-        if width < 0 and type(width) is not int:
+        if width <= 0 and type(width) is not int:
             super().integer_validator("width", width)
-        if height < 0 or type(height) is not int:
+        if height <= 0 or type(height) is not int:
             super().integer_validator("height", height)
         self.__width = width
         self.__height = height
