@@ -10,7 +10,7 @@ class Square(Rectangle):
         Args:
             size: Size of the square
 
-        Return: 
+        Return:
             area: Area of the square
     """
     def __init__(self, size):
