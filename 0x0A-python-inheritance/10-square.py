@@ -1,4 +1,4 @@
-#!/usr//bin/python3
+#!/usr/bin/python3
 """Creates a square that inherits from Rectangle"""
 Rectangle = __import__('9-rectangle').Rectangle
 
