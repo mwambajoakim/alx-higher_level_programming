@@ -40,3 +40,7 @@ Reading and writing and appending text into files in python is quite straightfor
 ## 03 - This function returns the JSON representation of an object (string):
 - Prototype: `def to_json_string(my_obj):`
 - You don’t need to manage exceptions if the object can’t be serialized.
+
+## 04 - This function returns an object (Python data structure) represented by a JSON string:
+- Prototype: `def from_json_string(my_str):`
+- You don’t need to manage exceptions if the JSON string doesn’t represent an object.
