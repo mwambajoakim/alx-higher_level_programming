@@ -28,3 +28,10 @@ Reading and writing and appending text into files in python is quite straightfor
 - Your function should create the file if doesn’t exist.
 - Your function should overwrite the content of the file if it already exists.
 - No modules imported
+
+## 02 - This function appends a string at the end of a text file (UTF8) and returns the number of characters added:
+- Prototype: `def append_write(filename="", text=""):`
+- If the file doesn’t exist, it should be created
+- You must use the `with` statement
+- You don’t need to manage `file permission` or `file doesn't exist` exceptions.
+- No modules imported
