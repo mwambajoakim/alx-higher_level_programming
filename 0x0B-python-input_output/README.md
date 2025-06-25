@@ -50,3 +50,9 @@ Reading and writing and appending text into files in python is quite straightfor
 - You must use the `with` statement
 - You don’t need to manage exceptions if the object can’t be serialized.
 - You don’t need to manage `file permission` exceptions.
+
+## 06 - This function creates an Object from a “JSON file”:
+- Prototype: `def load_from_json_file(filename):`
+- You must use the `with` statement
+- You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+- You don’t need to manage `file permissions / exceptions`
