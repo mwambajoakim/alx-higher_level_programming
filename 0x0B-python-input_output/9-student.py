@@ -10,7 +10,7 @@ class Student:
             last_name: Last name of student
             age: Age of the student
 
-        Return: 
+        Return:
             Dictionary representation of Student
     """
     def __init__(self, first_name, last_name, age):
