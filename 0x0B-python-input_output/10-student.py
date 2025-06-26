@@ -21,6 +21,4 @@ class Student:
     def to_json(self, attrs=None):
         if attrs is None:
             return self.__dict__
-        for k in attrs:
-            if k in self.__dict__:
-                return {k: self.__dict__[k]}
+        return {k: self.__dict__[k] for k in attrs if k in self.__dict__}
