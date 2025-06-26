@@ -69,3 +69,12 @@ Reading and writing and appending text into files in python is quite straightfor
 - `obj` is an instance of a Class
 - All attributes of the `obj` Class are serializable: list, dictionary, string, integer and boolean
 - No imported modules
+
+## 09 - This is a class Student that defines a student by:
+- Public instance attributes:
+	- `first_name`
+	- `last_name`
+	- `age`
+- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
+- Public method `def to_json(self):` that retrieves a dictionary representation of a `Student` instance (same as 8-class_to_json.py)
+- No modules imported
