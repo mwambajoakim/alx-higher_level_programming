@@ -63,3 +63,9 @@ Reading and writing and appending text into files in python is quite straightfor
 - The list must be saved as a `JSON` representation in a file named `add_item.json`
 - If the file doesn’t exist, it should be created
 - You don’t need to manage `file permissions / exceptions`.
+
+## 08 - This function returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
+- Prototype: `def class_to_json(obj):`
+- `obj` is an instance of a Class
+- All attributes of the `obj` Class are serializable: list, dictionary, string, integer and boolean
+- No imported modules
