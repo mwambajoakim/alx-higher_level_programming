@@ -104,3 +104,9 @@ Reading and writing and appending text into files in python is quite straightfor
 	- A dictionary key will be the public attribute name
 	- A dictionary value will be the value of the public attribute
 - No imported modules
+
+## 12 - This function def pascal_triangle(n): returns a list of lists of integers representing the Pascal’s triangle of n:
+- Returns an empty list if `n <= 0`
+- You can assume `n` will be always an integer
+- No imported modules
+
