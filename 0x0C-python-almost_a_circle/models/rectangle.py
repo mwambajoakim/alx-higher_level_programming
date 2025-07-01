@@ -2,6 +2,7 @@
 """Instantiate a rectangle"""
 from models.base import Base
 
+
 class Rectangle(Base):
     """Defines a rectangle
         Args:
@@ -79,4 +80,6 @@ class Rectangle(Base):
             print()
 
     def __str__(self):
-        return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} -  {self.__width}/{self.__height}"
+        return f"[Rectangle]\
+                ({self.id}) {self.__x}/{self.__y}\
+                - {self.__width}/{self.__height}"
