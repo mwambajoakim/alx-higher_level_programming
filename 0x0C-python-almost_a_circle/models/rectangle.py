@@ -91,3 +91,7 @@ class Rectangle(Base):
         d = self.__width
         e = self.__height
         return f"[Rectangle] ({a}) {b}/{c} - {d}/{e}"
+
+    def update(self, *args):
+        for arg in args:
+           setattr(self, arg)
