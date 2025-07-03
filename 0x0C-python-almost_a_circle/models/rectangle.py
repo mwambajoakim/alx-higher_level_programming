@@ -97,6 +97,8 @@ class Rectangle(Base):
 
             Args:
                 *args: New arguments to set attributes with
+                *kwargs: Key word arguments to set attributes
+                        if *args do not exist
         """
         attr_names = ["id", "width", "height", "x", "y"]
         if len(args) >= 1:
