@@ -55,3 +55,6 @@ This class will be the “base” of all other classes in this project. The goal
 - Added the public method `def display(self):`
 - Prints in stdout the `Rectangle` instance with the character `#` 
 - Did not yet handle `x` and `y` here.
+
+## 06 - Update the class Rectangle
+- Overrode the `__str__` method so that it returns `[Rectangle] (<id>) <x>/<y> - <width>/<height>`
