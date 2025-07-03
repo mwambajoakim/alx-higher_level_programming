@@ -97,7 +97,6 @@ class Rectangle(Base):
 
             Args:
                 *args: New arguments to set attributes with
-
         """
         attr_names = ["id", "width", "height", "x", "y"]
         for i, arg in enumerate(args):
