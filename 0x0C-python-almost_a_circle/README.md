@@ -46,3 +46,7 @@ This class will be the “base” of all other classes in this project. The goal
 - If the input is not an integer, raises the `TypeError` exception with the message: `<name of the attribute> must be an integer`. Example: `width must be an integer`
 - If `width` or `height` is under or equals `0`, raises the `ValueError` exception with the message: `<name of the attribute> must be > 0`. Example: `width must be > 0`
 - If `x` or `y` is under `0`, raises the `ValueError` exception with the message: `<name of the attribute> must be >= 0`. Example: `x must be >= 0`
+
+## 04 - Updated the class Rectangle.
+- Added the public method `def area(self):` 
+- Returns the area value of the `Rectangle` instance.
