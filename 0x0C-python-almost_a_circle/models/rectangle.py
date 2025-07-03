@@ -93,6 +93,12 @@ class Rectangle(Base):
         return f"[Rectangle] ({a}) {b}/{c} - {d}/{e}"
 
     def update(self, *args):
+        """Updates the class with new attributes
+
+            Args:
+                *args: New arguments to set attributes with
+
+        """
         attr_names = ["id", "width", "height", "x", "y"]
         for i, arg in enumerate(args):
            if i < len(attr_names):
