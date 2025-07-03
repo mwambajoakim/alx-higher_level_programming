@@ -69,3 +69,10 @@ This class will be the “base” of all other classes in this project. The goal
 - 3rd argument should be the `height` attribute
 - 4th argument should be the `x` attribute
 - 5th argument should be the `y` attribute
+
+## 09 Updated the class Rectangle
+- Updated the public method `def update(self, *args):` by changing the prototype to `update(self, *args, **kwargs)` that assigns a key/value argument to attributes:
+- `**kwargs` can be thought of as a double pointer to a dictionary: key/value
+	- As Python doesn’t have pointers, `**kwargs` is not literally a double pointer – describing it as such is just a way of explaining its behavior in terms you’re already familiar with
+- `**kwargs` must be skipped if `*args` exists and is not empty
+- Each key in this dictionary represents an attribute to the instance
