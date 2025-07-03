@@ -50,3 +50,8 @@ This class will be the “base” of all other classes in this project. The goal
 ## 04 - Updated the class Rectangle.
 - Added the public method `def area(self):` 
 - Returns the area value of the `Rectangle` instance.
+
+## 05 - Update the class Rectangle
+- Added the public method `def display(self):`
+- Prints in stdout the `Rectangle` instance with the character `#` 
+- Did not yet handle `x` and `y` here.
