@@ -92,13 +92,17 @@ class Rectangle(Base):
         e = self.__height
         return f"[Rectangle] ({a}) {b}/{c} - {d}/{e}"
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Updates the class with new attributes
 
             Args:
                 *args: New arguments to set attributes with
         """
         attr_names = ["id", "width", "height", "x", "y"]
-        for i, arg in enumerate(args):
-            if i < len(attr_names):
-                setattr(self, attr_names[i], arg)
+        if len(args) >= 1:
+            for i, arg in enumerate(args):
+                if i < len(attr_names):
+                    setattr(self, attr_names[i], arg)
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
