@@ -98,3 +98,11 @@ This class will be the “base” of all other classes in this project. The goal
 	- 4th argument should be the `y` attribute
 - `**kwargs` is skipped if `*args` exists and is not empty
 - Each key in this dictionary represents an attribute to the instance
+
+## 13 - Updated the class Rectangle by adding the public method def to_dictionary(self): that returns the dictionary representation of a Rectangle:
+This dictionary must contain:
+- `id`
+- `width`
+- `height`
+- `x`
+- `y`
