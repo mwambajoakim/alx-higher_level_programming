@@ -89,3 +89,12 @@ This class will be the “base” of all other classes in this project. The goal
 ## 11 - Updated the class Square by adding the public getter and setter size
 - The setter assigns (in this order) the `width` and the `height` - with the same value
 - The setter has the same value validation as the `Rectangle` for `width` and `height` - No need to change the exception error message (It should be the one from width)
+
+## 12 - Updated the class Square by adding the public method def update(self, *args, **kwargs) that assigns attributes:
+- `*args` is the list of arguments - no-keyworded arguments
+	- 1st argument should be the `id` attribute
+	- 2nd argument should be the `size` attribute
+	- 3rd argument should be the `x` attribute
+	- 4th argument should be the `y` attribute
+- `**kwargs` is skipped if `*args` exists and is not empty
+- Each key in this dictionary represents an attribute to the instance
