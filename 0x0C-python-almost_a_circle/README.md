@@ -76,3 +76,13 @@ This class will be the “base” of all other classes in this project. The goal
 	- As Python doesn’t have pointers, `**kwargs` is not literally a double pointer – describing it as such is just a way of explaining its behavior in terms you’re already familiar with
 - `**kwargs` must be skipped if `*args` exists and is not empty
 - Each key in this dictionary represents an attribute to the instance
+
+## 10 - Wrote the class Square that inherits from Rectangle:
+- In the file `models/square.py`
+- Class S`quare` inherits from `Rectangle`
+- Class constructor: `def __init__(self, size, x=0, y=0, id=None):`:
+	- Called the super class with `id`, `x`, `y`, `width` and `height` - this super call will use the logic of the `__init__` of the `Rectangle` class. The `width` and `height` must be assigned to the value of `size`
+	- Created new attributes for this class, use all attributes of `Rectangle` - As reminder: a Square is a Rectangle with the same width and height
+	- All `width`, `height`, `x` and `y` validation must inherit from Rectangle - same behavior in case of wrong data
+- The overloading `__str__` method should returns `[Square] (<id>) <x>/<y> - <size>` - in our case, width or height
+
