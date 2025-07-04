@@ -138,3 +138,9 @@ This dictionary must contain:
 - Uses the method `def update(self, *args, **kwargs)`
 - `**dictionary` used as `**kwargs` of tahe method `update`
 - No use of `eval`
+
+## 19 - Updated the class Base by adding the class method def load_from_file(cls): that returns a list of instances:
+- The filename must be: `<Class name>.json` - example: `Rectangle.json`
+- If the file doesn’t exist, returns an empty list
+- Otherwise, returns a list of instances - the type of these instances depends on `cls` (current class using this method)
+- Uses the from_`json_string` and `create` methods (implemented previously)
