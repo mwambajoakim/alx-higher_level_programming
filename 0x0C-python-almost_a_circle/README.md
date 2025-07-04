@@ -106,3 +106,10 @@ This dictionary must contain:
 - `height`
 - `x`
 - `y`
+
+## 14 - Updated the class Square by adding the public method def to_dictionary(self): that returns the dictionary representation of a Square:
+This dictionary must contain:
+- `id`
+- `size`
+- `x`
+- `y`
