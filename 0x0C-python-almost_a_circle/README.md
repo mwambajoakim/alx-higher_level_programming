@@ -126,3 +126,7 @@ This dictionary must contain:
 - Used the static method `to_json_string` (created before)
 - Overwrites the file if it already exists
 
+## 17 - Update the class Base by adding the static method def from_json_string(json_string): that returns the list of the JSON string representation json_string:
+- `json_string` is a string representing a list of dictionaries
+- If `json_string` is `None` or empty, returns an empty list
+- Otherwise, returns the list represented by json_string
