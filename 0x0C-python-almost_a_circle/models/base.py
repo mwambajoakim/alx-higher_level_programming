@@ -61,3 +61,17 @@ class Base:
         if rec is not None:
             rec.update(**dictionary)
         return rec
+
+    @classmethod
+    def load_from_file(cls):
+        """Returns a list of instances"""
+        filename = f"{cls.__name__}.json"
+        new_list = []
+        with open(filename, 'r', encoding="UTF-8") as inst_file:
+            if filename is None:
+                return new_list
+            else:
+                lst = cls.from_json_string(inst_file.read())
+                for i in lst:
+                    new_list.append(cls.create(**i))
+                return new_list
