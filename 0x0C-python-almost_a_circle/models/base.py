@@ -68,7 +68,7 @@ class Base:
         filename = f"{cls.__name__}.json"
         new_list = []
         with open(filename, 'r', encoding="UTF-8") as inst_file:
-            if filename is None:
+            if filename is None or not filename:
                 return new_list
             else:
                 lst = cls.from_json_string(inst_file.read())
