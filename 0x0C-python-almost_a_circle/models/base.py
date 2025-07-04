@@ -68,11 +68,10 @@ class Base:
         """Returns a list of instances"""
         filename = f"{cls.__name__}.json"
         new_list = []
+        if not os.path.exists(filename):
+            return new_list
         with open(filename, 'r', encoding="UTF-8") as inst_file:
-            if not os.path.exists(filename):
-                return []
-            else:
-                lst = cls.from_json_string(inst_file.read())
-                for i in lst:
-                    new_list.append(cls.create(**i))
-                return new_list
+            lst = cls.from_json_string(inst_file.read())
+            for i in lst:
+                new_list.append(cls.create(**i))
+            return new_list
