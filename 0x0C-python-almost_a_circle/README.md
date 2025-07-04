@@ -86,3 +86,6 @@ This class will be the “base” of all other classes in this project. The goal
 	- All `width`, `height`, `x` and `y` validation must inherit from Rectangle - same behavior in case of wrong data
 - The overloading `__str__` method should returns `[Square] (<id>) <x>/<y> - <size>` - in our case, width or height
 
+## 11 - Updated the class Square by adding the public getter and setter size
+- The setter assigns (in this order) the `width` and the `height` - with the same value
+- The setter has the same value validation as the `Rectangle` for `width` and `height` - No need to change the exception error message (It should be the one from width)
