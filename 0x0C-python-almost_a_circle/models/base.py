@@ -53,11 +53,11 @@ class Base:
     def create(cls, **dictionary):
         """Returns an instance with all attributes set"""
         if cls.__name__ == "Rectangle":
-            rec = cls(1, 2, 3, 0, 0)
+            rec = cls(1, 1)
         elif cls.__name__ == "Square":
-            rec = cls(1, 2, 0, 0)
+            rec = cls(1)
         else:
-            rec is None
+            rec = None
+        if rec is not None:
             rec.update(**dictionary)
-        rec.update(**dictionary)
         return rec
