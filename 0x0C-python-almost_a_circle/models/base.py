@@ -43,7 +43,21 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
+        """Returns a list of decrypted JSON string"""
         if json_string is None or not json_string:
             return []
         else:
             return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """Returns an instance with all attributes set"""
+        if cls.__name__ == "Rectangle":
+            rec = cls(1, 2, 3, 0, 0)
+        elif cls.__name__ == "Square":
+            rec = cls(1, 2, 0, 0)
+        else:
+            rec is None
+            rec.update(**dictionary)
+        rec.update(**dictionary)
+        return rec
