@@ -116,5 +116,13 @@ This dictionary must contain:
 
 ## 15 - Updated the class Base by adding the static method def to_json_string(list_dictionaries): that returns the JSON string representation of list_dictionaries:
 - `list_dictionaries` is a list of dictionaries
-- If `list_dictionaries` is `None` or empty, return the string: `"[]"`
+- If `list_dictionaries` is `None` or empty, returns the string: `"[]"`
 - Otherwise, return the JSON string representation of `list_dictionaries`
+
+## 16 - Updated the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file:
+- `list_objs` is a list of instances who inherits of Base - example: list of `Rectangle` or list of `Square` instances
+- If `list_objs` is `None`, save an empty list
+- The filename must be: `<Class name>.json` - example: `Rectangle.json`
+- Used the static method `to_json_string` (created before)
+- Overwrites the file if it already exists
+
