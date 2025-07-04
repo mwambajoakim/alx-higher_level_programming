@@ -70,7 +70,7 @@ class Base:
         new_list = []
         with open(filename, 'r', encoding="UTF-8") as inst_file:
             if not os.path.exists(filename):
-                return new_list
+                return []
             else:
                 lst = cls.from_json_string(inst_file.read())
                 for i in lst:
