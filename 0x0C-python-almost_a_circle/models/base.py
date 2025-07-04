@@ -40,3 +40,10 @@ class Base:
                     list_dictionaries.append(val.to_dictionary())
                 json_str = cls.to_json_string(list_dictionaries)
                 json_file.write(json_str)
+
+    @staticmethod
+    def from_json_string(json_string):
+        if json_string is None:
+            return "[]"
+        else:
+            return json_string
