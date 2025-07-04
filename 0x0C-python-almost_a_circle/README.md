@@ -130,3 +130,11 @@ This dictionary must contain:
 - `json_string` is a string representing a list of dictionaries
 - If `json_string` is `None` or empty, returns an empty list
 - Otherwise, returns the list represented by json_string
+
+## 18 - Update the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set:
+- Used the `update` method to assign all attributes, by creating a “dummy” instance before:
+	- Creates a `Rectangle` or `Square` instance with “dummy” mandatory attributes (`width`, `height`, `size`, etc.)
+	- Calls `update` instance method to this “dummy” instance to apply the real values
+- Uses the method `def update(self, *args, **kwargs)`
+- `**dictionary` used as `**kwargs` of tahe method `update`
+- No use of `eval`
