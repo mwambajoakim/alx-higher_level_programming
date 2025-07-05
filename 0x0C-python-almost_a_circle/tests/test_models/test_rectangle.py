@@ -79,3 +79,13 @@ class TestRectangle(unittest.TestCase):
         """Test ValueError for negative """
         with self.assertRaises(ValueError):
             rec = Rectangle(1, 2, 6, -2)
+
+    def test_updateMethod(self):
+        rec = Rectangle(1, 2, 3, 4)
+        rec.update(4, 5, 6, 7, 8)
+        self.assertEqual(rec.id, 4)
+        self.assertEqual(rec.width, 5)
+        self.assertEqual(rec.height, 6)
+        self.assertEqual(rec.x, 7)
+        self.assertEqual(rec.y, 8)
+
