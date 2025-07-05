@@ -15,3 +15,7 @@ class TestSquare(unittest.TestCase):
 	def testID(self):
 		sq = Square(2, 6)
 		self.assertEqual(sq.id, 1)
+
+	def testAssignedId(self):
+		sq = Square(2, 0, 0, 12)
+		self.assertEqual(sq.id, 12)
