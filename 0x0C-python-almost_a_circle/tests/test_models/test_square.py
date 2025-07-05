@@ -20,7 +20,12 @@ class TestSquare(unittest.TestCase):
 		sq = Square(2, 0, 0, 12)
 		self.assertEqual(sq.id, 12)
 
-	def testSizeValueError(self):
+	def testSizeTypeError(self):
 		with self.assertRaises(TypeError):
 			sq = Square("3")
 			sq = Square([8])
+
+	def testSizeValueError(self):
+		with self.assertRaises(ValueError):
+			sq = Square(0)
+			sq = Square(-4)
