@@ -99,6 +99,9 @@ class Rectangle(Base):
                 *args: New arguments to set attributes with
                 *kwargs: Key word arguments to set attributes
                         if *args do not exist
+                
+                After updating, the values should be in the order:
+                    id, width, height, x, y
         """
         attr_names = ["id", "width", "height", "x", "y"]
         if len(args) >= 1:
