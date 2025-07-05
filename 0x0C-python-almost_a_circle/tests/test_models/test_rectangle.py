@@ -17,7 +17,7 @@ class TestRectangle(unittest.TestCase):
     def test_inherits_from_Base(self):
         """Test Rectangle inherits from Base"""
         rec = Rectangle(1, 1)
-        self.assertEqual(rec.id, 6)
+        self.assertEqual(rec.id, 4)
 
     def test_widthTypeError(self):
         """Test if TypeError is raised for width non int"""
@@ -39,12 +39,43 @@ class TestRectangle(unittest.TestCase):
             rec = Rectangle(1, {"height": 2})
             rec = Rectangle(2, 5.6)
 
+    def test_xTypeError(self):
+        """Test if TypeError is raised for x non int"""
+        with self.assertRaises(TypeError):
+            rec = Rectangle(1, 2, "1", 0)
+            rec = Rectangle(1, 2, False, 0)
+            rec = Rectangle(1, 2, [9], 0)
+            rec = Rectangle(1, 2, 1.2, 0)
+            rec = Rectangle(1, 2, None, 0)
+
+    def test_yTypeError(self):
+        """Test if TypeError is raised for y non int"""
+        with self.assertRaises(TypeError):
+            rec = Rectangle(1, 2, 2, "1")
+            rec = Rectangle(1, 2, 2, False)
+            rec = Rectangle(1, 2, 3, [9])
+            rec = Rectangle(1, 2, 7, 1.2)
+            rec = Rectangle(1, 2, 6, None)
+            
+            
     def test_widthValuerror(self):
         """Test ValueError for negative width"""
         with self.assertRaises(ValueError):
             rec = Rectangle(-1, 2)
+            rec = Rectangle(0, 3)
 
     def test_heightValuerror(self):
         """Test ValueError for negative width"""
         with self.assertRaises(ValueError):
             rec = Rectangle(1, -2)
+            rec = Rectangle(3, 0)
+
+    def test_xValuerror(self):
+        """Test ValueError for negative x"""
+        with self.assertRaises(ValueError):
+            rec = Rectangle(1, 2, -6, 2)
+
+    def test_yValuerror(self):
+        """Test ValueError for negative """
+        with self.assertRaises(ValueError):
+            rec = Rectangle(1, 2, 6, -2)
