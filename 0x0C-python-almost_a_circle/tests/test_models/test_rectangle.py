@@ -174,6 +174,10 @@ class TestRectangle(unittest.TestCase):
         rec = Rectangle(1, 2, 3, 4)
         rec.update(4, 5, 6, 7, 8)
         self.assertEqual(rec.height, 6)
+
+    def test_argsUpdateMethodX(self):
+        rec = Rectangle(1, 2, 3, 4)
+        rec.update(4, 5, 6, 7, 8)
         self.assertEqual(rec.x, 7)
         self.assertEqual(rec.y, 8)
 
