@@ -19,10 +19,14 @@ class TestRectangle(unittest.TestCase):
         rec = Rectangle(1, 1)
         self.assertEqual(rec.id, 5)
 
-    def test_widthTypeError(self):
-        """Test if TypeError is raised for width non int"""
+    def test_widthTypeErrorStr(self):
+        """Test if TypeError is raised for width as string"""
         with self.assertRaises(TypeError):
             rec = Rectangle("1", 2)
+
+    def test_widthTypeErrorNone(self):
+        """Test if TypeError is raised for width as None"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(None, 2)
             rec = Rectangle([1, 2])
             rec = Rectangle(True, 2)
