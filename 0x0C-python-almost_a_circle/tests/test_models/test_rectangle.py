@@ -33,6 +33,10 @@ class TestRectangle(unittest.TestCase):
         """Test if TypeError is raised for width as list"""
         with self.assertRaises(TypeError):
             rec = Rectangle([1, 2])
+
+    def test_widthTypeErrorBoolean(self):
+        """Test if TypeError is raised for width as boolean"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(True, 2)
             rec = Rectangle({"width": 1}, 2)
             rec = Rectangle(2.4, 3)
