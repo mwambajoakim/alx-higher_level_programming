@@ -49,10 +49,14 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             rec = Rectangle(2.4, 3)
 
-    def test_heightTypeError(self):
-        """Test if TypeError is raised for height non int"""
+    def test_heightTypeErrorString(self):
+        """Test if TypeError is raised for height as a string"""
         with self.assertRaises(TypeError):
             rec = Rectangle(1, "2")
+
+    def test_heightTypeErrorNone(self):
+        """Test if TypeError is raised for height as None"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, None)
             rec = Rectangle([1, 2])
             rec = Rectangle(1, True)
