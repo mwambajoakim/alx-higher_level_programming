@@ -93,6 +93,10 @@ class TestRectangle(unittest.TestCase):
         """Test if TypeError is raised for x as a list"""
         with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, [9], 0)
+
+    def test_xTypeErrorFloat(self):
+        """Test if TypeError is raised for x as a float"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, 1.2, 0)
             rec = Rectangle(1, 2, None, 0)
 
