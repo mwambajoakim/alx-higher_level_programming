@@ -17,7 +17,7 @@ class TestRectangle(unittest.TestCase):
     def test_inherits_from_Base(self):
         """Test Rectangle inherits from Base"""
         rec = Rectangle(1, 1)
-        self.assertEqual(rec.id, 5)
+        self.assertEqual(rec.id, 9)
 
     def test_widthTypeErrorStr(self):
         """Test if TypeError is raised for width as string"""
@@ -79,10 +79,14 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             rec = Rectangle(2, 5.6)
 
-    def test_xTypeError(self):
-        """Test if TypeError is raised for x non int"""
+    def test_xTypeErrorStr(self):
+        """Test if TypeError is raised for x as a string"""
         with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, "1", 0)
+
+    def test_xTypeErrorBool(self):
+        """Test if TypeError is raised for x as a boolean"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, False, 0)
             rec = Rectangle(1, 2, [9], 0)
             rec = Rectangle(1, 2, 1.2, 0)
