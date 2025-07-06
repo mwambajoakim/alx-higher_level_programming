@@ -73,6 +73,10 @@ class TestRectangle(unittest.TestCase):
         """Test if TypeError is raised for height as a dict"""
         with self.assertRaises(TypeError):
             rec = Rectangle(1, {"height": 2})
+
+    def test_heightTypeErrorFloat(self):
+        """Test if TypeError is raised for height as a float"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(2, 5.6)
 
     def test_xTypeError(self):
