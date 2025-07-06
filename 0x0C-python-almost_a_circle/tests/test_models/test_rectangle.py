@@ -134,6 +134,10 @@ class TestRectangle(unittest.TestCase):
         """Test ValueError for negative width"""
         with self.assertRaises(ValueError):
             rec = Rectangle(-1, 2)
+
+    def test_widthValuerrorZero(self):
+        """Test ValueError for negative width"""
+        with self.assertRaises(ValueError):
             rec = Rectangle(0, 3)
 
     def test_heightValuerror(self):
