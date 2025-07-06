@@ -17,7 +17,7 @@ class TestRectangle(unittest.TestCase):
     def test_inherits_from_Base(self):
         """Test Rectangle inherits from Base"""
         rec = Rectangle(1, 1)
-        self.assertEqual(rec.id, 4)
+        self.assertEqual(rec.id, 5)
 
     def test_widthTypeError(self):
         """Test if TypeError is raised for width non int"""
@@ -48,13 +48,29 @@ class TestRectangle(unittest.TestCase):
             rec = Rectangle(1, 2, 1.2, 0)
             rec = Rectangle(1, 2, None, 0)
 
-    def test_yTypeError(self):
-        """Test if TypeError is raised for y non int"""
+    def test_yTypeErrorstr(self):
+        """Test if TypeError is raised for y as string"""
         with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, 2, "1")
+
+    def test_yTypeErrorbool(self):
+        """Test if TypeError is raised for y as boolean"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, 2, False)
+
+    def test_yTypeErrorlist(self):
+        """Test if TypeError is raised for y as list"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, 3, [9])
+
+    def test_yTypeError(self):
+        """Test if TypeError is raised for y as float"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, 7, 1.2)
+
+    def test_yTypeError(self):
+        """Test if TypeError is raised for y as None"""
+        with self.assertRaises(TypeError):
             rec = Rectangle(1, 2, 6, None)
             
             
@@ -80,7 +96,7 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(ValueError):
             rec = Rectangle(1, 2, 6, -2)
 
-    def test_updateMethod(self):
+    def test_argsUpdateMethod(self):
         rec = Rectangle(1, 2, 3, 4)
         rec.update(4, 5, 6, 7, 8)
         self.assertEqual(rec.id, 4)
@@ -89,3 +105,9 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(rec.x, 7)
         self.assertEqual(rec.y, 8)
 
+    """
+    def test_kwargsUpdateMethod(self):
+        rec = Rectangle(1, 2, 3, 4, 5)
+        rec.update(6, 5, {"width": 4}, {"height": 6})
+        self.assertEqual(rec.width, 5)
+    """
