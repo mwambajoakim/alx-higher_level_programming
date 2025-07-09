@@ -28,7 +28,10 @@ class TestSquare(unittest.TestCase):
         with self.assertRaises(TypeError):
             sq = Square([8])
 
-    def testSizeValueError(self):
+    def testSizeValueErrorZero(self):
         with self.assertRaises(ValueError):
             sq = Square(0)
+
+    def testSizeValueErrorNeg(self):
+        with self.assertRaises(ValueError):
             sq = Square(-4)
