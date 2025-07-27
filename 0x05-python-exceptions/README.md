@@ -85,3 +85,9 @@ Python offers a way to handle errors and help the user of your code not to panic
 - Used `try:` / `except:`
 - Used `"{:d}".format()` to print as integer
 - No use of `type()`
+
+## 08 - This function executes a function safely.
+- Prototype: `def safe_function(fct, *args):`
+- Returns the result of the function,
+- Otherwise, returns `None` if something happens during the function and prints in `stderr` the error precede by `Exception:`
+- Used `try:` / `except:`
