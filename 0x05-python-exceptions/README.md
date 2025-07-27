@@ -75,3 +75,13 @@ Python offers a way to handle errors and help the user of your code not to panic
 ## 06 - This unction raises a name exception with a message.
 - Prototype: `def raise_exception_msg(message=""):`
 - No imported modules
+
+## 07 - This function prints an integer.
+- Prototype: `def safe_print_integer_err(value):`
+- `value` can be any type (integer, string, etc.)
+- The integer is printed followed by a new line
+- Returns `True` if value has been correctly printed (it means the value is an integer)
+- Otherwise, returns `False` and prints in `stderr` the error precede by `Exception:`
+- Used `try:` / `except:`
+- Used `"{:d}".format()` to print as integer
+- No use of `type()`
