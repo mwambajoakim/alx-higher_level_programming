@@ -1,6 +1,6 @@
 -- Displays similar scores
 SELECT
-  score
+  score,
   COUNT(score) number
 FROM
   second_table
