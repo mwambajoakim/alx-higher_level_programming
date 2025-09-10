@@ -1,9 +1,10 @@
 -- Displays similar scores
 SELECT
   score
+  COUNT(score) number
 FROM
   second_table
-WHERE
-  score=score
-AS
-  number;
+GROUP BY
+  score
+ORDER BY
+  number DESC;
