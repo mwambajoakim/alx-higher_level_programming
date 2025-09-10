@@ -1,2 +1,2 @@
 -- Describe a database table
-DESC;
+SHOW COLUMNS FROM first_table;
