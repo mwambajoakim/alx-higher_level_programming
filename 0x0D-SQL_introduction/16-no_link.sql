@@ -4,6 +4,6 @@ SELECT
 FROM
   second_table
 WHERE
-  name != NULL
+  name IS NOT NULL
 ORDER BY
   score DESC;
