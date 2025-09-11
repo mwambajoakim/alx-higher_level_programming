@@ -13,7 +13,7 @@ COLLATE
 
 ALTER TABLE first_table
 COLUMN name
-CONVERT TO CHARACTER SET
+CHARACTER SET
   utf8mb
 COLLATE
   utf8mb_unicode_ci;
