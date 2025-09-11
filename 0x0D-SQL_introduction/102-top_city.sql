@@ -1,6 +1,6 @@
 -- Display top 3 cities temperature
 SELECT city, value
 FROM temperatures
-WHERE month in (7, 8)
+WHERE month IN (7, 8)
 ORDER BY value DESC
 LIMIT 3;
