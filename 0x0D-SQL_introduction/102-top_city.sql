@@ -2,4 +2,5 @@
 SELECT city, value
 FROM temperatures
 WHERE month = 1 and month = 2
-ORDER BY value DESC LIMIT 3;
+LIMIT 3
+ORDER BY value DESC;
