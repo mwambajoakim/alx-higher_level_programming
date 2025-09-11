@@ -9,5 +9,5 @@ COLLATE utf8mb4_unicode_ci;
 
 ALTER TABLE first_table
 MODIFY name VARCHAR(255)
-CHARACTER SET utf8mb
-COLLATE utf8mb_unicode_ci;
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
