@@ -1,5 +1,5 @@
 -- import table to hbtn_0c_0
-mysql -h root -p hbtn_0c_0 < temperatures.sql
+mysql -u root -p hbtn_0c_0 < temperatures.sql
 
 SELECT city, AVG(value) as avg_temp
 FROM temperatures
