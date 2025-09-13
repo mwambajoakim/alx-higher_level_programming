@@ -1,5 +1,5 @@
 -- Switch to hbtn_0c_0 database
-USE hbtn_0c_0
+USE hbtn_0c_0;
 
 -- Converts a database to UTF-8
 ALTER DATABASE hbtn_0c_0
