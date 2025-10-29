@@ -13,7 +13,6 @@ class Square extends Rectangle {
 
   double () {
     this.width = 2 * this.width;
-    this.width = 2 * this.width;
   }
 }
 module.exports = Square;
