@@ -1,10 +1,10 @@
 #!/usr/bin/python3
+""" List all states from a database
+"""
 import MySQLdb
 import sys
 
 
-""" List all states from a database
-"""
 db = MySQLdb.connect(
     host="localhost",
     user=sys.argv[1],
