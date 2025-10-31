@@ -5,7 +5,7 @@ import sys
 """ List all states from a database
 """
 db = MySQLdb.connect(
-    host=localhost,
+    host="localhost",
     user=sys.argv[1],
     passwd=sys.argv[2],
     port=3306,
