@@ -9,6 +9,7 @@ from sqlalchemy import Integer, Column, String, create_engine
 
 Base = declarative_base()
 
+
 class State(Base):
     """Create a table called states.
 
@@ -20,4 +21,3 @@ class State(Base):
 
     id = Column(Integer, primary_key=True, nullable=False, autoincrement=True)
     name = Column(String(128), nullable=False)
-
