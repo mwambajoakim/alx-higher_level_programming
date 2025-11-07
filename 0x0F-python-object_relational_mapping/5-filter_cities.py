@@ -18,11 +18,11 @@ if __name__ == "__main__":
 
     cur = db.cursor()
 
-    cur.execute("SELECT cities.name "
-                "FROM cities "
-                "JOIN cities ON states.id = cities.state_id "
-                "WHERE states.name = %s "
-                "ORDER BY cities.id ASC", (sys.argv[4],))
+    cur.execute(
+        "SELECT cities.name FROM cities "
+        "JOIN cities ON states.id = cities.state_id "
+        "WHERE states.name = %s "
+        "ORDER BY cities.id ASC", (sys.argv[4],))
 
     rows = cur.fetchall()
 
