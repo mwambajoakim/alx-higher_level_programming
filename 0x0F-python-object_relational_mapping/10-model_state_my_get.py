@@ -21,7 +21,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    states = session.query(State).filter(State.name == state_search)).first()
+    states = session.query(State).filter(State.name == state_search).first()
 
     if states:
         print(states.id)
