@@ -24,7 +24,6 @@ if __name__ == "__main__":
 
     change_name.name = "New Mexico"
 
-    session.add(change_name)
     session.commit()
 
     session.close()
