@@ -15,6 +15,7 @@ class City(Base):
           id: The city id.
           name: The city name.
           state_id: Foreign key pointing to state of city.
+          state: Child relationship to State.
     """
     __tablename__ = 'cities'
 
