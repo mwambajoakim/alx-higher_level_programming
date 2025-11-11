@@ -25,6 +25,6 @@ if __name__ == "__main__":
 
     for state in a_states:
         del state
-    session.commit()
+        session.commit()
 
     session.close()
