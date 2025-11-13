@@ -4,7 +4,7 @@ Contains the class definition of a City
 """
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, ForeignKey
-from model_state import State, Base
+from relationship_state import Base
 from sqlalchemy.orm import relationship
 
 
