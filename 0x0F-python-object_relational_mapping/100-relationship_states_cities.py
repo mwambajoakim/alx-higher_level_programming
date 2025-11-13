@@ -19,7 +19,6 @@ if __name__ == "__main__":
     engine = create_engine(db_url, pool_pre_ping=True)
 
     Base.metadata.create_all(engine)
-
     Session = sessionmaker(bind=engine)
     session = Session()
 
@@ -27,7 +26,7 @@ if __name__ == "__main__":
     san_francisco = City(name="San Francisco", state=california)
 
     california.cities.append(san_francisco)
-    
+
     session.add(california)
     session.commit()
 
