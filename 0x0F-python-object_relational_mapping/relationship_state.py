@@ -6,10 +6,7 @@ and an instance Base = declarative_base()
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Integer, Column, String, create_engine
 from sqlalchemy.orm import relationship
-from relationship_city import City
-
-
-Base = declarative_base()
+from relationship_city import City, Base
 
 
 class State(Base):
