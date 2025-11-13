@@ -25,7 +25,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    results = session.query(State). \
+    results = session.query(State) \
         .options(joinedload(State.cities)) \
         .order_by(State.id) \
         .all()
