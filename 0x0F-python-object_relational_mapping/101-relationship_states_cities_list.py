@@ -5,7 +5,7 @@ and corresponding City objects,
 contained in the database
 """
 import sys
-frm sqlalchemy import create_engine
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from relationship_state import State
 from relationship_city import Base
@@ -16,7 +16,8 @@ if __name__ == "__main__":
     password = sys.argv[2]
     database = sys.argv[3]
 
-    database_url = f"mysql+mysldb:{username}:{password}@localhost:3306/{database}"
+    database_url = f"mysql+mysldb: "
+    f"{username}:{password}@localhost:3306/{database}"
 
     engine = create_engine(database_url, pool_pre_ping=True)
 
@@ -29,6 +30,6 @@ if __name__ == "__main__":
     for state in results:
         print(f"{state.id}: {state.name}")
         for city in state.cities:
-            print(f"    {city.id}: {city.name}"
-    
+            print(f"    {city.id}: {city.name}")
+
     session.close()
