@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Displays the size of the response body from a url
 if [[ -z "$1" ]]; then
     echo "Usage $0 url"
     exit 1
