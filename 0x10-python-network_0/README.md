@@ -10,4 +10,7 @@ This folder is an interaction with the `curl` command used for manipulating urls
 
 - Bash script that takes in a URL, sends a GET request to the URL, and displays the body of the response
     - Display only body of a 200 status code response
-    - You have to use curl
+    - You have to use `curl`
+
+- Bash script that sends a DELETE request to the URL passed as the first argument and displays the body of the response
+    - You have to use `curl`
