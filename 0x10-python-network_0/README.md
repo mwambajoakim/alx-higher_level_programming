@@ -18,3 +18,8 @@ This folder is an interaction with the `curl` command used for manipulating urls
 - Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response
     - A header variable `X-School-User-Id` must be sent with the value `98`
     - Used `curl`
+
+- Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response
+    - A variable `email` must be sent with the value `test@gmail.com`
+    - A variable `subject` must be sent with the value `I will always be here for PLD`
+    - You have to use `curl`
