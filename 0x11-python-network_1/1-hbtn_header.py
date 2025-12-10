@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Fetches url content X-Request-Id
+Script that takes a URL, sends a request to it,
+and displays the value of the X-Request-Id header.
 """
 from urllib import request
 import sys
