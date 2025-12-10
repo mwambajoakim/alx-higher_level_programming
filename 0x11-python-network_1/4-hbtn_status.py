@@ -4,7 +4,7 @@ import requests
 
 
 if __name__ == "__main__":
-    url = "https://www.google.com"
+    url = "https://alx-intranet.hbtn.io/status"
     req = requests.get(url)
     print("Body Response:")
     print(f"\t- type: ", type(req.text))
